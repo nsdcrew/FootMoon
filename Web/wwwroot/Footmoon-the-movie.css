@@ -129,11 +129,12 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-text-4 {
-    margin-top: 11px;
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .u-section-1 .u-text-4 {
+       
+        margin-top: 11px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
   .u-section-1 .u-text-5 {
     width: 627px;
@@ -176,9 +177,11 @@
     margin-top: 55px;
   }
 
-  .u-section-1 .u-text-4 {
-    margin-top: 19px;
-  }
+    .u-section-1 .u-text-4 {
+        font-size: medium;
+        text-align: justify;
+        margin-top: 19px;
+    }
 
   .u-section-1 .u-social-icons-1 {
     margin-top: 60px;
@@ -333,7 +336,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-size: 3.75rem;
+  font-size: 2.25rem;
   font-family: "Amatic SC";
   font-weight: normal;
   text-shadow: 0px 2px 8px rgba(0,0,0,1);
@@ -586,7 +589,7 @@
   }
 
   .u-section-2 .u-text-1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
 
   .u-section-2 .u-group-1 {
@@ -727,7 +730,7 @@
   }
 
   .u-section-2 .u-text-1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     width: auto;
     margin-left: 0;
     margin-right: 0;
@@ -739,7 +742,7 @@
 
   .u-section-2 .u-countdown-1 {
     margin-top: 43px;
-    margin-left: -12px;
+    margin-left: 16px;
     margin-right: -12px;
     padding: 22px 0;
   }
@@ -1130,9 +1133,8 @@
   .u-section-5 .u-text-2 {
     margin-left: 0;
   }
-} .u-section-6 {
-  background-image: none;
 }
+
 
 .u-section-6 .u-sheet-1 {
   min-height: 753px;
@@ -1188,7 +1190,6 @@
 }
 
 .u-section-6 .u-text-4 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
@@ -1240,7 +1241,6 @@
 }
 
 .u-section-6 .u-text-6 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
@@ -1292,7 +1292,6 @@
 }
 
 .u-section-6 .u-text-8 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
@@ -1676,6 +1675,13 @@
   margin: 22px auto 43px;
 }
 
+
+.u-section-6 {
+    color: black !important;
+    text-shadow: 0px 2px 8px rgba(0,0,0,1);
+    background-image: none;
+}
+
 @media (max-width: 1199px) {
   .u-section-8 .u-text-1 {
     width: auto;
@@ -1757,8 +1763,9 @@
     margin-left: initial;
   }
 
-  .u-section-8 .u-text-2 {
-    margin-top: 30px;
-    margin-bottom: 55px;
-  }
+    .u-section-8 .u-text-2 {
+        margin-top: 30px;
+        margin-bottom: 55px;
+        font-size: 1.5rem;
+    }
 }

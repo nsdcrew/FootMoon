@@ -1,0 +1,688 @@
+﻿@page
+@using System.Globalization;
+@model Web.Pages.ReleasedModel
+@{
+    ViewData["Title"] = "Home page | Foot Moon - The movie";
+
+    var nowUtc = DateTime.UtcNow;
+
+    var year = 2022;
+    var month = 12;
+    var day = 1;
+    var hours = 12;
+    var minutes = 0;
+
+    long ticks = new DateTime(year, month, day, hours, minutes, 0,
+    new CultureInfo("en-US", false).Calendar).Ticks;
+
+    var realeaseDatetime = new DateTime(ticks);
+
+    bool showAllSection = false;
+    string bgColortoAdd = "";
+    string txtColortoAdd = "";
+}
+<section class="skrollable u-clearfix u-image u-parallax u-section-1" id="sec-76a9" data-image-width="3840" data-image-height="2160" style="background-color:#000000 !important">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-align-center u-image u-image-contain u-image-default u-image-1" src="images/titleb1.png" alt="" data-image-width="1175" data-image-height="180" data-lang-fr="" data-lang-ena="">
+        <img class="u-align-center u-image u-image-contain u-image-default u-image-2" src="images/titlec1.png" alt="" data-image-width="1175" data-image-height="100" data-lang-fr="" data-lang-ena="">
+        <p class="u-align-center u-custom-font u-text u-text-grey-25 u-text-1" data-lang-ena="in Mexico" data-lang-fr="in Mexico">in Mexico</p>
+        <img class="u-align-center u-expanded-width-xs u-image u-image-contain u-image-default u-image-3" src="images/body2.png" alt="" data-image-width="1527" data-image-height="1378" data-lang-fr="" data-lang-ena="">
+        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;">Movie Languages</p><span class="u-file-icon u-icon u-icon-1"><img src="images/330490.png" alt=""></span><span class="u-file-icon u-icon u-icon-2"><img src="images/330425.png" alt=""></span><span class="u-file-icon u-icon u-icon-3"><img src="images/330557.png" alt=""></span>
+
+
+        @if (DateTime.Now >= realeaseDatetime || showAllSection)
+        {
+            <a href="#carousel_344b" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-1">WATCH IT</a>
+        }
+        else
+        {
+            <a href="#sec-5161" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-1">WATCH TRAILER</a>
+        }
+
+
+
+        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-3" style="font-family: agency FB;" data-lang-fr="The incredible story of a young boy who wanted to touch the sky, by sending is foot...&amp;nbsp;To the moon !!!" data-lang-ena="The incredible story of a young boy who wanted to touch the sky, by sending is foot...&amp;nbsp;To the moon !!!">The incredible story of a young boy who wanted to touch the sky, by sending is foot...&nbsp;To the moon !!!</p>
+        <br />
+
+        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-4" style="font-family: agency FB; font-size: large;text-align: justify;"> A film produced &amp; directed by Backa Flipa Production avec Julien Cudot, with the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</p>
+
+
+        <div class="u-align-center u-social-icons u-spacing-10 u-social-icons-1">
+            <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/footmoon.themovie">
+                <span class="u-icon u-social-facebook u-social-icon u-text-white">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0d1f"></use></svg>
+                    <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0d1f">
+                        <path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
+c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
+                    </svg>
+                </span>
+            </a>
+            <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/footmoon.themovie/">
+                <span class="u-icon u-social-icon u-social-instagram u-text-white">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-548b"></use></svg>
+                    <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-548b">
+                        <path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
+	 M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path>
+                        <path fill="#FFFFFF" d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path>
+                        <path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
+	V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7
+	c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-5" style="font-family: agency FB;" data-lang-ena="* Make as much comments as you want directly from our social media networks" data-lang-fr="You can make as much comments as you want on our social media">* Make as much comments as you want directly from our social media networks</p>
+    </div>
+</section>
+
+@if (DateTime.Now < realeaseDatetime && !showAllSection)
+{
+    bgColortoAdd = "#ffffff !important";
+
+    <section class="skrollable u-align-center u-clearfix u-image u-parallax u-section-2" id="sec-d0a9" data-image-width="2271" data-image-height="1276" style="background-color:@bgColortoAdd">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr=" Something wow is Coming...&amp;nbsp;<br>" data-lang-ena=" Something wow is Coming in...&amp;nbsp;<br>">
+                Something is Coming in...&nbsp;<br>
+            </h2>
+
+            <div class="u-align-center-xs u-countdown u-countdown-1">
+                <div class="u-countdown-wrapper u-spacing-30">
+                    <div class="u-countdown-separator u-hidden u-text-grey-90 u-countdown-separator-1"></div>
+                    <div class=" u-countdown-item u-radius-22 u-spacing-15 u-white u-countdown-item-2">
+                        <div class=" u-countdown-counter-2"><div class="u-text-grey-90" id="DaysNum" style="font-family: agency FB;"></div></div>
+                        <div class="u-countdown-label u-countdown-label-2" style="font-family: agency FB;">Days</div>
+                    </div>
+                    <div class="u-countdown-separator u-text-grey-90 u-countdown-separator-2"></div>
+                    <div class=" u-countdown-item u-radius-22 u-spacing-15 u-white u-countdown-item-3">
+                        <div class="u-countdown-counter-3"><div class=" u-text-grey-90" id="HoursNum" style="font-family: agency FB;"></div></div>
+                        <div class="u-countdown-label u-countdown-label-3" style="font-family: agency FB;">Hours</div>
+                    </div>
+                    <div class="u-countdown-separator u-text-grey-90 u-countdown-separator-3"></div>
+                    <div class="u-countdown-item u-countdown-minutes u-radius-22 u-spacing-15 u-white u-countdown-item-4">
+                        <div class=" u-countdown-counter-4"><div class="u-text-grey-90" id="MinutesNum" style="font-family: agency FB;"></div></div>
+                        <div class="u-countdown-label u-countdown-label-4" style="font-family: agency FB;">Minutes</div>
+                    </div>
+                </div>
+
+                <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;    margin-top: 50px;" style="text-transform:lowercase" data-lang-fr=" December 1st, 2023&amp;nbsp;<br>" data-lang-ena=" December 1st, 2023<br>">
+                    December 1st, 2023 at 12pm<br>
+                </h2>
+                <div class="u-countdown-message u-hidden">
+                    <p></p>
+                </div>
+            </div>
+            <div class="u-align-center-xs u-container-style u-custom-color-2 u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-radius-30 u-shape-round u-group-1">
+                <div class="u-container-layout u-container-layout-1">
+                    <h2 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-custom-font u-text u-text-default u-text-3" style="font-family: agency FB;" data-lang-ena="​Don't miss it !" data-lang-fr="Don't miss it !"> Don't miss it !</h2>
+                    <div class="u-absolute-hcenter u-border-3 u-border-palette-3-base u-line u-line-horizontal u-line-1"></div>
+                    <p class="u-align-center-lg u-align-center-md u-align-center-xl u-custom-font u-text u-text-4" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="​">Remind me by email when it become available !</p>
+                    <div class="u-form u-form-1">
+                        <form method="post" class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px" source="email">
+                            <div class="u-form-email u-form-group u-label-none">
+                                <label class="u-label" data-lang-fr="Email" data-lang-ena="Email">Email</label>
+                                <input type="email" placeholder="Email" id="email-558c" name="email" class="u-input u-input-rectangle" required="" data-lang-fr="Email" data-lang-ena="Email">
+                            </div>
+                            <div class="u-form-group u-form-submit u-label-none">
+                                <a href="#" class="u-btn u-btn-submit u-button-style u-palette-3-base u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}" data-lang-ena="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}">Ok remind me !</a>
+                                <input type="submit" value="submit" class="u-form-control-hidden">
+
+                            </div>
+                            <div class="u-form-send-message u-form-send-success" data-lang-fr="" data-lang-ena="">Thank you! An email will be send to you the day it become available.</div>
+                            <div class="u-form-send-error u-form-send-message" data-lang-fr="Unable to send your message. Please fix " data-lang-ena="">Thank you! An email will be send to you the day it become available.</div>
+                            <input type="hidden" value="" name="recaptchaResponse">
+                            <input type="hidden" name="formServices" value="1d3f738f7d23a9e99f68fa8551e4ca13">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-5" style="font-family: agency FB;">Wanna be an official partner, broadcast the movie, ask a simple question ?</p>
+            <a href="Footmoon-the-movie.html#sec-8a7d" class="u-align-center u-border-none u-btn u-button-style u-palette-3-base u-btn-2" data-lang-fr="{&quot;content&quot;:&quot;​<span class=\&quot; u-file-icon u-icon\&quot; style=\&quot;\&quot;><img src=\&quot;images/10289675.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/10289675.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;contact us&quot;,&quot;href&quot;:&quot;&quot;}" data-lang-ena="{&quot;content&quot;:&quot;​<span class=\&quot;u-file-icon u-icon u-block-control\&quot; style=\&quot;\&quot; data-block=\&quot;29\&quot;><img src=\&quot;images/10289675.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/10289675.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;contact us&quot;,&quot;href&quot;:&quot;281106830#sec-8a7d&quot;}">
+                <span class="u-file-icon u-icon"><img src="images/10289675.png" alt=""></span>&nbsp;contact us
+            </a>
+        </div>
+    </section>
+}
+else
+{
+    bgColortoAdd = "#030432 !important";
+}
+
+
+
+
+
+
+
+
+
+
+@if (DateTime.Now < realeaseDatetime && !showAllSection)
+{
+    bgColortoAdd = "#ffffff !important";
+    txtColortoAdd = "#111111 !important";
+}
+else
+{
+
+    bgColortoAdd = "black !important";
+    txtColortoAdd = "#ffffff !important";
+}
+
+
+<section class="skrollable u-align-center u-clearfix u-custom-color-1 u-section-3" id="sec-5161" style="background-color:@bgColortoAdd">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-custom-font u-text u-text-white u-text-1" style="color:@txtColortoAdd;font-family: agency FB;">Trailer</h2>
+        <p class="u-align-center u-custom-font u-text u-text-2" style="color:@txtColortoAdd;font-family: agency FB;" data-lang-fr="Are you ready to go to the moon with Julien Cudot?" data-lang-ena="Are you ready to go to the moon with Julien Cudot?">Are you ready to go to the moon with Julien Cudot?</p>
+        <div class="u-align-left u-video u-video-1">
+            <div class="embed-responsive embed-responsive-1">
+                <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/Mo5KCL2HvGk" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        <p class="u-align-center u-custom-font u-text u-text-3" style="color:@txtColortoAdd;font-family: agency FB;" data-lang-ena="* Select the language of you choice using the subtitles available in the youtube player" data-lang-fr="* Select the language of you choice using the subtitles available in the youtube player">* Select the language of you choice using the subtitles available in the youtube player</p>
+    </div>
+</section>
+
+
+
+@if (DateTime.Now >= realeaseDatetime || showAllSection)
+{
+    <section class="u-align-center u-clearfix u-section-4" id="sec-e1b0">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <h2 class="u-custom-font u-text u-text-1" data-lang-fr="introduction section" data-lang-ena="introduction section" style="font-family: agency FB;">introduction</h2>
+            <p class="u-align-center u-custom-font u-text u-text-2" style="font-family: agency FB;" data-lang-fr="​Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free" data-lang-ena="​Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free"> Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free</p>
+            <div class="u-video u-video-1">
+                <div class="embed-responsive embed-responsive-1">
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/c0AFFEI-zCM" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+            <p class="u-align-center u-custom-font u-text u-text-3" style="font-family: agency FB;" data-lang-ena="​* Select the language of you choice using the subtitles available in the youtube player" data-lang-fr="​* Select the language of you choice using the subtitles available in the youtube player"> * Select the language of you choice using the subtitles available in the youtube player</p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="skrollable u-clearfix u-image u-parallax u-section-5" id="carousel_344b" data-image-width="2280" data-image-height="1204" style="background-color:#030432">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr="Watch the full movie" data-lang-ena="Watch the full movie">full movie</h3>
+            <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;">
+                When was the last time you watched a Documentary film that made you fell like ... WoW ! Rollerblading is fuckin' dope !!! <br>
+            </h5>
+            <a href="https://backaflipa.gumroad.com/l/footmoon" target="_blank" class="u-align-center u-border-none u-btn u-button-style u-palette-3-light-1 u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;​<span class=\&quot;u-icon-1 u-file-icon u-icon\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}" data-lang-ena="{&quot;content&quot;:&quot;​<span class=\&quot;u-file-icon u-icon u-block-control u-icon-1\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot; data-block=\&quot;45\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}">
+                <span class="u-file-icon u-icon u-icon-1"><img src="images/4204016.png" alt=""></span>&nbsp;Let'S watch it!<br>
+            </a>
+        </div>
+    </section>
+
+
+}
+
+
+<section class="skrollable u-align-center u-clearfix u-custom-color-2 u-parallax u-section-8" id="sec-6cfe">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr="Our partners" data-lang-ena="Our partners">Awards</h1>
+        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;">Still waiting from `Festivale de Cannes` for the Palme ... </p>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-75" src="~/images/rewards/Foot Moon award - best short docu.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-75" src="~/images/rewards/Foot Moon award - best sport docu.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+<section class="skrollable u-align-center u-clearfix u-image u-parallax skrollable-betweenu-custom-color-1  u-section-6" style="background-image: url(images/frey.jpg);" id="sec-6cfe">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" data-lang-fr="Our partners" data-lang-ena="Our partners" style="font-family: agency FB;">partners</h1>
+        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="We would like to thanks all our partners for their help and trust" data-lang-ena="We would like to thanks all our partners for their help and trust">We would like to thanks all our partners for their help and trust</p>
+        <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-1" data-image-width="500" data-image-height="500"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3" style="font-family: agency FB;" data-lang-fr="<a class=&quot;u-active-none u-btn-1 u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color&quot; style=&quot;background-image: none; font-size: 1.5rem; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px&quot; href=&quot;http://www.sebaskates.com/&quot;>seba skates (just as exemple)</a>" data-lang-ena="<a class=&quot;u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-block-control u-btn-1&quot; href=&quot;http://www.sebaskates.com/&quot; data-lang-fr=&quot;{&amp;quot;content&amp;quot;:&amp;quot;seba skates&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;http://www.sebaskates.com/&amp;quot;}&quot; data-lang-ena=&quot;{&amp;quot;content&amp;quot;:&amp;quot;seba skates&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;http://www.sebaskates.com/&amp;quot;}&quot; style=&quot;background-image: none; font-size: 1.5rem; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot; data-block=&quot;53&quot;>seba skates</a>">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="http://www.sebaskates.com/" data-lang-fr="{&quot;content&quot;:&quot;seba skates&quot;,&quot;href&quot;:&quot;http://www.sebaskates.com/&quot;}" data-lang-ena="{&quot;content&quot;:&quot;seba skates&quot;,&quot;href&quot;:&quot;http://www.sebaskates.com/&quot;}">seba skates (just as exemple)</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-4" style="font-family: agency FB;" data-lang-fr="​The SEBA Brand philosophy is to create high quality skates" data-lang-ena="​The SEBA Brand philosophy is to create high quality skates"> The SEBA Brand philosophy is to create high quality skates</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-1">
+                            <a class="u-social-url" target="_blank" href="https://www.facebook.com/SEBASkatesStreet/" title="Seba skates">
+                                <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-1">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://twitter.com/sebaskates" title="twitter seba">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-2">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://www.instagram.com/sebaskates/" title="instagram seba">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-3">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-2" data-image-width="356" data-image-height="356"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-5" style="font-family: agency FB;" data-lang-fr="<a class=&quot;u-active-none u-btn-2 u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color&quot; style=&quot;background-image: none; font-size: 1.5rem; padding: 0px;&quot; href=&quot;https://www.fise.fr/en&quot; target=&quot;_blank&quot;>fise world</a>" data-lang-ena="<a class=&quot;u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-block-control u-btn-2&quot; href=&quot;https://www.fise.fr/en&quot; target=&quot;_blank&quot; data-lang-fr=&quot;{&amp;quot;content&amp;quot;:&amp;quot;fise world&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;https://www.fise.fr/en&amp;quot;}&quot; data-lang-ena=&quot;{&amp;quot;content&amp;quot;:&amp;quot;fise world&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;https://www.fise.fr/en&amp;quot;}&quot; style=&quot;background-image: none; font-size: 1.5rem; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot; data-block=&quot;59&quot;>fise world</a>">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" href="https://www.fise.fr/en" target="_blank" data-lang-fr="{&quot;content&quot;:&quot;fise world&quot;,&quot;href&quot;:&quot;https://www.fise.fr/en&quot;}" data-lang-ena="{&quot;content&quot;:&quot;fise world&quot;,&quot;href&quot;:&quot;https://www.fise.fr/en&quot;}">fise world (just as exemple)</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-6" style="font-family: agency FB;" data-lang-fr="​FISE is the biggest action sports festival in the world. Inspiring action for over 20 years" data-lang-ena="​FISE is the biggest action sports festival in the world. Inspiring action for over 20 years"> FISE is the biggest action sports festival in the world. Inspiring action for over 20 years</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-2">
+                            <a class="u-social-url" target="_blank" href="https://www.facebook.com/fise.officiel/" title="fise officiel facebook">
+                                <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-4">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://twitter.com/fiseworld" title="fise world twitter">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-5">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://www.instagram.com/fiseworld/" title="fise world instagram">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-6">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-3" data-image-width="548" data-image-height="549"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;" data-lang-fr="<a class=&quot;u-active-none u-btn-3 u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color&quot; style=&quot;background-image: none; font-size: 1.5rem; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px&quot; href=&quot;https://www.alk13.eu/&quot; target=&quot;_blank&quot;>alk 13</a>" data-lang-ena="<a class=&quot;u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-block-control u-btn-3&quot; href=&quot;https://www.alk13.eu/&quot; target=&quot;_blank&quot; data-lang-fr=&quot;{&amp;quot;content&amp;quot;:&amp;quot;alk 13&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;https://www.alk13.eu/&amp;quot;}&quot; data-lang-ena=&quot;{&amp;quot;content&amp;quot;:&amp;quot;alk 13&amp;quot;,&amp;quot;href&amp;quot;:&amp;quot;https://www.alk13.eu/&amp;quot;}&quot; style=&quot;background-image: none; font-size: 1.5rem; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot; data-block=&quot;65&quot;>alk 13</a>">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://www.alk13.eu/" target="_blank" data-lang-fr="{&quot;content&quot;:&quot;alk 13&quot;,&quot;href&quot;:&quot;https://www.alk13.eu/&quot;}" data-lang-ena="{&quot;content&quot;:&quot;alk 13&quot;,&quot;href&quot;:&quot;https://www.alk13.eu/&quot;}">alk 13 (just as exemple)</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-8" style="font-family: agency FB;" data-lang-fr="​ALK13 helmets and protections that equips you for all your extreme sports" data-lang-ena="​ALK13 helmets and protections that equips you for all your extreme sports"> ALK13 helmets and protections that equips you for all your extreme sports</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-3">
+                            <a class="u-social-url" target="_blank" href="https://www.facebook.com/alk13.off/" title="facebook alk13">
+                                <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-7">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://twitter.com/alk13_officiel" title="alk13 twitter">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-8">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
+                                </span>
+                            </a>
+                            <a class="u-social-url" target="_blank" href="https://www.instagram.com/alk13.off/" title="instagram alk13">
+                                <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-9">
+                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skrollable u-align-center u-clearfix u-parallax u-white u-section-7" src="" id="sec-8a7d">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-custom-font u-text u-text-1" style="font-family: agency FB;" data-lang-fr="Contact us" data-lang-ena="Contact us">Contact us</h3>
+        <p class="u-custom-font u-text u-text-2" style="font-family: agency FB;">What's app : +33 7 66 40 22 91</p>
+        <p class="u-custom-font u-text u-text-3" style="font-family: agency FB;">
+            contact@footmoon.com
+        </p>
+    </div>
+</section>
+
+
+<section class="u-align-center u-clearfix u-custom-color-1 u-section-8" id="sec-f959" style="background-color:black">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-default u-text-1" style="font-family: agency FB;" data-lang-fr="Photos" data-lang-ena="Photos">Photos</h1>
+        <div class="u-carousel u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" data-interval="5000" data-u-ride="carousel" id="carousel-6f0c">
+            <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="6" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="7" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="8" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="9" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="10" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="11" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="12" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="13" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="14" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="15" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="16" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="17" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="18" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                <li data-u-target="#carousel-6f0c" data-u-slide-to="19" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            </ol>
+            <div class="u-carousel-inner u-gallery-inner" role="listbox">
+                <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
+                    <div class="u-back-slide" data-image-width="1280" data-image-height="852">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/ged823006dd5340613ee8defb2336b1d983081740eef534664113ec7a6d0aaf9c7a144fbf4b5196256ff6003cf05775dca40b5f32d3d2c59cc00cdd221114b020_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-1"></div>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-2">
+                    <div class="u-back-slide" data-image-width="1280" data-image-height="853">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gc3e1ea7babd782d77c9919f2fb6bc0d6922421d020c3a1f4258f3b6d14ad8b60cea60bf393a64f88a0073139414bd698e964cf44318f0c5c9e0b2b04cf4a81ba_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-2"></div>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="831">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="images/4eff0bf428ed74ab734a91b2c7bd372a48bc1b166e7bb1fbc6ef50f875a66dec38b8d1f74cf1f587952a82cee64de98de899e8e1e7317753d0a979_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-3"></div>
+                    <style data-mode="XL" data-visited="true"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-4" data-image-width="1280" data-image-height="863">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g99af68f78f1df1733f3a24784ad3de98db9cc911e89dd32ccfd4f16676ac79924d44cd5feb1f0236345dc5d10cc129f37ff60cec6d977da864bccec1125f3489_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-4"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-5" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="images/80005d08d3775243e3085b5ff5e0a3d1f0df144b541fef533e59cca43793cc337cf69be7a8d8c4e44497946542471f2078bfd307716c256cfc5a92_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-5"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-6" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfef28fbb887d20b63fbae905550094ba5e171fefb6284d0329d367a0c32a3cf99c0dac16a3f8e7141e49d4322bbfaca2c49310bf44a4a003d42fbf2eebdb7689_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-6"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-7" data-image-width="1280" data-image-height="855">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g0e5965c9887572f341217b28930bb052a4c68a51a7e8285e968edf207c8af98f83a0cb8577f2cbc84431b67c0e0b0ba0ef4d62ebbb181bb3e048dd73bcb4208c_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-7"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-8" data-image-width="1280" data-image-height="854">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g559ed46b2f1fb9aac373085aea5c51e65f917f11f427eaf91487ccc933a8e37a66d9c3919f2068b915100c6579ee0b6c18239cb26bb60cb491119f9f543fe215_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-8"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-9" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g96e2eaf086b08778ab414c4b5eaf3100feff712593b1bb6a662a44c9e6dc8d24eb17a667203e3261d211fdaf576bc4250145ba205772d41330259d9a3ad51446_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-9"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-10" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/ga9da7d5b1b64aba824b75fcf666b97bf32eea74e1765d4488d4e6feb2a38768ab794cd5f0a76236ad836b593ab4750eee1fcc8a589a147bdb7a03964a1695fdc_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-10"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-11" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g5c6dd7b3f47a8f389861c47c237ddb71e39f92c7a9e85f9e99ee1cbde36d210470b15caac22b89045dc968c4f61be2e7d2f67adf95102924e4e42ca89d07d1e3_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-11"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-12" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gcd76d0692c58ce83f5d17f7efaf067a3bc29fda71a799d92edb77894912c8e9e02bf8e3f7c7aaf50d32463bac81ac6fd03795357a3a29f6169f2e62145a9b768_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-12"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-13" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2f164435a1090dadbdeb6ae5ee262aff2b173fe45bd348e505b4bd803154ea2f1b04c620a51e715cfcea7187d7c6978ce0db8b6bec1b71273cac4daa095488b6_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-13"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-14" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2e8e4c4c28ff7dad14a5b521c71527b675884590d3f6c4d12d856bef47098bebea3991346ffae997503c849b74ded3c3770c8a07b753f1da1c78149a3cebcf87_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-14"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-15" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfebc0b40503b9a404a6334431973401577024f83f4ccab1e24c8419b5fd9ec3e5cbbbedc69d8a44451bfbe4968f21c22325d7bf58c5df56d42c51396cfe8835e_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-15"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-16" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gec9d880cac4381a6c19c54254bcacf805a7fc991ff0b6fc050e6c6f9a47f1178f0289a7725a75d513c78b8f27363038dc9f5fdd7dbb37dc1fe4e66f68999b929_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-16"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-17" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gca7c42c93b2a55e4760f6bf2369b40681b0f2caf1f8be0c9a4b3136826bd62d1bae29b2cc4a4f8e2197bdff086a8ae92c4c0464f667e91a2ffbabafd1c6216e4_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-17"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-18" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gb1f2f1d5cf50bc53b36ae44285d93c8301ac013685e377f588e019b4191a89c9cb9433478bc9377afb01732bd5f0bb6a4fa9598b80f68059b8c443bfd4f821ae_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-18"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-19" data-image-width="1280" data-image-height="720">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g215d82d6b0343891c196c7f8ec286da89fb320bf28f98715584178376e250d77e7947f8dc9689945fa06182dae7a5181e09e5cefd7ac5d84ea5056ce4e2eb90e_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-19"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+                <div class="u-carousel-item u-gallery-item u-carousel-item-20" data-image-width="1280" data-image-height="853">
+                    <div class="u-back-slide">
+                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g527c61d63851bbbfec05c39daa9ea37e89600996bd790b0e32c955693a47e335dbd8d74e1f8b9c4ce0ca5e6ead0c2f7a349c36e0ba1681c5ec6ece7849d79128_1280.jpg">
+                    </div>
+                    <div class="u-over-slide u-over-slide-20"></div>
+                    <style data-mode="XL"></style>
+                    <style data-mode="LG" data-visited="true"></style>
+                    <style data-mode="MD" data-visited="true"></style>
+                    <style data-mode="SM" data-visited="true"></style>
+                    <style data-mode="XS" data-visited="true"></style>
+                </div>
+            </div>
+            <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-6f0c" role="button" data-u-slide="prev">
+                <span aria-hidden="true">
+                    <svg viewBox="0 0 451.847 451.847">
+                        <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+                    </svg>
+                </span>
+                <span class="sr-only">
+                    <svg viewBox="0 0 451.847 451.847">
+                        <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+                    </svg>
+                </span>
+            </a>
+            <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-6f0c" role="button" data-u-slide="next">
+                <span aria-hidden="true">
+                    <svg viewBox="0 0 451.846 451.847">
+                        <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+                    </svg>
+                </span>
+                <span class="sr-only">
+                    <svg viewBox="0 0 451.846 451.847">
+                        <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="">Photos by Thomas Camus (Real pics of the movie are coming soon)</p>
+    </div>
+</section>
+
+
+
+@section Scripts {
+
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $(function () {
+                $('#myCarousel').carousel({ interval: 3000 })
+            })
+
+            const minute = 1000 * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+            const year = day * 365;
+
+            //const day = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+            const date_now = Date.now();
+            const date_future = new Date(@year, @month-1, @day, @hours, @minutes);
+
+            console.log('date now : ' + date_now.toLocaleString());
+            console.log('date futur : ' + date_future.toLocaleString());
+
+            //const diffDays = Math.round(Math.abs((date_now - date_future) / day));
+            //console.log('diffDays : ' + diffDays);
+
+            // get total seconds between the times
+            var delta = Math.abs(date_future - date_now) / 1000;
+
+            // calculate (and subtract) whole days
+            var days = Math.floor(delta / 86400);
+            delta -= days * 86400;
+
+            // calculate (and subtract) whole hours
+            var hours = Math.floor(delta / 3600) % 24;
+            delta -= hours * 3600;
+
+            // calculate (and subtract) whole minutes
+            var minutes = Math.floor(delta / 60) % 60;
+            delta -= minutes * 60;
+
+            console.log('day : ' + days);
+            console.log('hours : ' + hours);
+            console.log('minutes : ' + minutes);
+
+            $('#DaysNum').html(days)
+            $('#HoursNum').html(hours)
+            $('#MinutesNum').html(minutes)
+
+
+
+        })
+
+    </script>
+
+
+}

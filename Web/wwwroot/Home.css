@@ -309,7 +309,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-size: 3.75rem;
+  font-size: 2.25rem;
   font-family: "Amatic SC";
   font-weight: normal;
   text-shadow: 0px 2px 8px rgba(0,0,0,1);
@@ -505,7 +505,7 @@
   }
 
   .u-section-2 .u-text-1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
 
   .u-section-2 .u-text-3 {
@@ -587,7 +587,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     width: auto;
     margin-left: 0;
     margin-right: 0;
@@ -909,8 +909,11 @@
   .u-section-5 .u-btn-1 {
     margin-top: 47px;
   }
-} .u-section-6 {
-  background-image: none;
+}
+.u-section-6 {
+    background-image: none;
+    color: black !important;
+    text-shadow: 0px 2px 8px rgba(0,0,0,1) !important;
 }
 
 .u-section-6 .u-sheet-1 {
@@ -967,7 +970,6 @@
 }
 
 .u-section-6 .u-text-4 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
@@ -1019,7 +1021,6 @@
 }
 
 .u-section-6 .u-text-6 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
@@ -1071,7 +1072,6 @@
 }
 
 .u-section-6 .u-text-8 {
-  font-style: italic;
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
 }
