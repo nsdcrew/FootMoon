@@ -41937,11 +41937,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     margin-top: -32px;
-    margin-right: 200px;
-    margin-left: 51px;
+    margin-right: 180px;
+    margin-left: 65px;
   }
 
   .u-header .u-social-icons-1 {
+    width: 66px;
     width: 66px;
     height: 25px;
     margin-top: -32px;
