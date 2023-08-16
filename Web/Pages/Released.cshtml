@@ -1,6 +1,6 @@
 ﻿@page
 @using System.Globalization;
-@model Web.Pages.ReleasedModel
+@model IndexModel
 @{
     ViewData["Title"] = "Home page | Foot Moon - The movie";
 
@@ -8,7 +8,7 @@
 
     var year = 2022;
     var month = 12;
-    var day = 1;
+    var day = 15;
     var hours = 12;
     var minutes = 0;
 
@@ -25,18 +25,27 @@
     <div class="u-clearfix u-sheet u-sheet-1">
         <img class="u-align-center u-image u-image-contain u-image-default u-image-1" src="images/titleb1.png" alt="" data-image-width="1175" data-image-height="180" data-lang-fr="" data-lang-ena="">
         <img class="u-align-center u-image u-image-contain u-image-default u-image-2" src="images/titlec1.png" alt="" data-image-width="1175" data-image-height="100" data-lang-fr="" data-lang-ena="">
-        <p class="u-align-center u-custom-font u-text u-text-grey-25 u-text-1" data-lang-ena="in Mexico" data-lang-fr="in Mexico">in Mexico</p>
+        <p class="u-align-center u-custom-font u-text u-text-grey-25 u-text-1" style="" data-lang-ena="in Mexico" data-lang-fr="in Mexico">in Mexico</p>
         <img class="u-align-center u-expanded-width-xs u-image u-image-contain u-image-default u-image-3" src="images/body2.png" alt="" data-image-width="1527" data-image-height="1378" data-lang-fr="" data-lang-ena="">
         <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;">Movie Languages</p><span class="u-file-icon u-icon u-icon-1"><img src="images/330490.png" alt=""></span><span class="u-file-icon u-icon u-icon-2"><img src="images/330425.png" alt=""></span><span class="u-file-icon u-icon u-icon-3"><img src="images/330557.png" alt=""></span>
 
 
         @if (DateTime.Now >= realeaseDatetime || showAllSection)
         {
-            <a href="#carousel_344b" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-1">WATCH IT</a>
+
+            <a href="https://watch.footmoon.com" target="_blank" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-1">WATCH IT</a>
+
+            <a href="#sec-e1b0" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style  u-none u-radius-50 u-btn-1" style="border-color:#f1c50e !important; color:#f1c50e !important">WATCH INTRO</a>
+
         }
         else
         {
-            <a href="#sec-5161" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-1">WATCH TRAILER</a>
+
+            <a href="https://watch.footmoon.com" target="_blank" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-hover-palette-1-base u-button-style u-none u-radius-50 u-btn-1">PRE ORDER</a>
+            <a href="#sec-5161" class="u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style  u-none u-radius-50 u-btn-1" style="border-color:#f1c50e !important; color:#f1c50e !important">WATCH TRAILER</a>
+
+
+
         }
 
 
@@ -57,6 +66,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                     </svg>
                 </span>
             </a>
+
             <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/footmoon.themovie/">
                 <span class="u-icon u-social-icon u-social-instagram u-text-white">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-548b"></use></svg>
@@ -70,6 +80,11 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                     </svg>
                 </span>
             </a>
+            <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/footmoon.themovie/">
+                <span class="u-icon u-social-icon u-social-instagram u-text-white">
+                    <img src="~/images/tiktokwhite.png" style="height:auto;" />
+                </span>
+            </a>
         </div>
         <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-5" style="font-family: agency FB;" data-lang-ena="* Make as much comments as you want directly from our social media networks" data-lang-fr="You can make as much comments as you want on our social media">* Make as much comments as you want directly from our social media networks</p>
     </div>
@@ -80,12 +95,14 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
     bgColortoAdd = "#ffffff !important";
 
     <section class="skrollable u-align-center u-clearfix u-image u-parallax u-section-2" id="sec-d0a9" data-image-width="2271" data-image-height="1276" style="background-color:@bgColortoAdd">
+
         <div class="u-clearfix u-sheet u-sheet-1">
             <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr=" Something wow is Coming...&amp;nbsp;<br>" data-lang-ena=" Something wow is Coming in...&amp;nbsp;<br>">
-                Something is Coming in...&nbsp;<br>
+                Movie Available Online HERE in<br>
             </h2>
 
             <div class="u-align-center-xs u-countdown u-countdown-1">
+
                 <div class="u-countdown-wrapper u-spacing-30">
                     <div class="u-countdown-separator u-hidden u-text-grey-90 u-countdown-separator-1"></div>
                     <div class=" u-countdown-item u-radius-22 u-spacing-15 u-white u-countdown-item-2">
@@ -105,7 +122,8 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                 </div>
 
                 <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;    margin-top: 50px;" style="text-transform:lowercase" data-lang-fr=" December 1st, 2023&amp;nbsp;<br>" data-lang-ena=" December 1st, 2023<br>">
-                    December 1st, 2023 at 12pm<br>
+                    @*<span style="font-size:2.25rem;">Online release</span> <br>*@
+                    December 15st, 2023 at 12pm
                 </h2>
                 <div class="u-countdown-message u-hidden">
                     <p></p>
@@ -113,9 +131,15 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
             </div>
             <div class="u-align-center-xs u-container-style u-custom-color-2 u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-radius-30 u-shape-round u-group-1">
                 <div class="u-container-layout u-container-layout-1">
+
+
                     <h2 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-custom-font u-text u-text-default u-text-3" style="font-family: agency FB;" data-lang-ena="​Don't miss it !" data-lang-fr="Don't miss it !"> Don't miss it !</h2>
                     <div class="u-absolute-hcenter u-border-3 u-border-palette-3-base u-line u-line-horizontal u-line-1"></div>
-                    <p class="u-align-center-lg u-align-center-md u-align-center-xl u-custom-font u-text u-text-4" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="​">Remind me by email when it become available !</p>
+                    <br />
+                    <a href="watch.footmoon.com" class=" u-absolute-hcenter  u-align-center u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius-50 u-btn-1" style="border-color:#f1c50e !important; color:#f1c50e !important">PRE ORDER</a>
+
+                    <p class="u-align-center-lg u-align-center-md u-align-center-xl u-custom-font u-text u-text-4" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="​">Or remind me by email when it become available !</p>
+
                     <div class="u-form u-form-1">
                         <form method="post" class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px" source="email">
                             <div class="u-form-email u-form-group u-label-none">
@@ -175,7 +199,7 @@ else
         <p class="u-align-center u-custom-font u-text u-text-2" style="color:@txtColortoAdd;font-family: agency FB;" data-lang-fr="Are you ready to go to the moon with Julien Cudot?" data-lang-ena="Are you ready to go to the moon with Julien Cudot?">Are you ready to go to the moon with Julien Cudot?</p>
         <div class="u-align-left u-video u-video-1">
             <div class="embed-responsive embed-responsive-1">
-                <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/Mo5KCL2HvGk" frameborder="0" allowfullscreen=""></iframe>
+                <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/wila6McXx0A" frameborder="0" allowfullscreen=""></iframe>
             </div>
         </div>
         <p class="u-align-center u-custom-font u-text u-text-3" style="color:@txtColortoAdd;font-family: agency FB;" data-lang-ena="* Select the language of you choice using the subtitles available in the youtube player" data-lang-fr="* Select the language of you choice using the subtitles available in the youtube player">* Select the language of you choice using the subtitles available in the youtube player</p>
@@ -188,11 +212,11 @@ else
 {
     <section class="u-align-center u-clearfix u-section-4" id="sec-e1b0">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <h2 class="u-custom-font u-text u-text-1" data-lang-fr="introduction section" data-lang-ena="introduction section" style="font-family: agency FB;">introduction</h2>
+            <h2 class="u-custom-font u-text u-text-1" data-lang-fr="introduction section" data-lang-ena="introduction section" style="font-family: agency FB;">Introduction</h2>
             <p class="u-align-center u-custom-font u-text u-text-2" style="font-family: agency FB;" data-lang-fr="​Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free" data-lang-ena="​Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free"> Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free</p>
             <div class="u-video u-video-1">
                 <div class="embed-responsive embed-responsive-1">
-                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/c0AFFEI-zCM" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/G8v8Ep4NMf8" frameborder="0" allowfullscreen=""></iframe>
                 </div>
             </div>
             <p class="u-align-center u-custom-font u-text u-text-3" style="font-family: agency FB;" data-lang-ena="​* Select the language of you choice using the subtitles available in the youtube player" data-lang-fr="​* Select the language of you choice using the subtitles available in the youtube player"> * Select the language of you choice using the subtitles available in the youtube player</p>
@@ -206,11 +230,11 @@ else
 
     <section class="skrollable u-clearfix u-image u-parallax u-section-5" id="carousel_344b" data-image-width="2280" data-image-height="1204" style="background-color:#030432">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr="Watch the full movie" data-lang-ena="Watch the full movie">full movie</h3>
+            <h3 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;" data-lang-fr="Watch the full movie" data-lang-ena="Watch the full movie">Full movie</h3>
             <h5 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;">
-                When was the last time you watched a Documentary film that made you fell like ... WoW ! Rollerblading is fuckin' dope !!! <br>
+                WoW ! Rollerblading is fuckin' dope !!! <br>
             </h5>
-            <a href="https://backaflipa.gumroad.com/l/footmoon" target="_blank" class="u-align-center u-border-none u-btn u-button-style u-palette-3-light-1 u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;​<span class=\&quot;u-icon-1 u-file-icon u-icon\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}" data-lang-ena="{&quot;content&quot;:&quot;​<span class=\&quot;u-file-icon u-icon u-block-control u-icon-1\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot; data-block=\&quot;45\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}">
+            <a href="https://watch.footmoon.com" target="_blank" class="u-align-center u-border-none u-btn u-button-style u-palette-3-light-1 u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;​<span class=\&quot;u-icon-1 u-file-icon u-icon\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}" data-lang-ena="{&quot;content&quot;:&quot;​<span class=\&quot;u-file-icon u-icon u-block-control u-icon-1\&quot; style=\&quot;font-size: 1.6876em; margin-right: 9px; vertical-align: -5px\&quot; data-block=\&quot;45\&quot;><img src=\&quot;images/4204016.png\&quot; alt=\&quot;\&quot; data-original-src=\&quot;images/4204016.png\&quot; data-color=\&quot;#000000\&quot;></span>&amp;nbsp;Let'S watch it!<br>&quot;,&quot;href&quot;:&quot;https://nicepage.cc&quot;}">
                 <span class="u-file-icon u-icon u-icon-1"><img src="images/4204016.png" alt=""></span>&nbsp;Let'S watch it!<br>
             </a>
         </div>
@@ -227,6 +251,12 @@ else
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
+            <!-- Indicators -->
+            @*  <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>*@
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-75" src="~/images/rewards/Foot Moon award - best short docu.jpg">
@@ -237,6 +267,19 @@ else
 
             </div>
 
+
+
+            <!-- Left and right controls -->
+            @*             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>*@
+
+
         </div>
 
 
@@ -245,7 +288,7 @@ else
 
 <section class="skrollable u-align-center u-clearfix u-image u-parallax skrollable-betweenu-custom-color-1  u-section-6" style="background-image: url(images/frey.jpg);" id="sec-6cfe">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" data-lang-fr="Our partners" data-lang-ena="Our partners" style="font-family: agency FB;">partners</h1>
+        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" data-lang-fr="Our partners" data-lang-ena="Our partners" style="font-family: agency FB;">Partners</h1>
         <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="We would like to thanks all our partners for their help and trust" data-lang-ena="We would like to thanks all our partners for their help and trust">We would like to thanks all our partners for their help and trust</p>
         <div class="u-expanded-width u-list u-list-1">
             <div class="u-repeater u-repeater-1">
@@ -342,7 +385,7 @@ else
 </section>
 <section class="skrollable u-align-center u-clearfix u-parallax u-white u-section-7" src="" id="sec-8a7d">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <h3 class="u-custom-font u-text u-text-1" style="font-family: agency FB;" data-lang-fr="Contact us" data-lang-ena="Contact us">Contact us</h3>
+        <h3 class="u-custom-font u-text u-text-1" style="font-family: agency FB;" data-lang-fr="Contact us" data-lang-ena="Contact us">Contact</h3>
         <p class="u-custom-font u-text u-text-2" style="font-family: agency FB;">What's app : +33 7 66 40 22 91</p>
         <p class="u-custom-font u-text u-text-3" style="font-family: agency FB;">
             contact@footmoon.com
