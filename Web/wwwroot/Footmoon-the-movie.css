@@ -1,6 +1,6 @@
- .u-section-1 {
-  background-image: url("images/113280-sky-4k-5k-wallpaper-8k-stars-mountains-night.jpg");
-  background-position: 50% 50%;
+.u-section-1 {
+    background-image: url("images/background cartoon.jpg");
+    background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -87,7 +87,7 @@
 .u-section-1 .u-social-icons-1 {
   height: 48px;
   min-height: 16px;
-  width: 140px;
+  width: 220px;
   min-width: 42px;
   margin: 84px auto 0;
 }

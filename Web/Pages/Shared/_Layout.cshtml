@@ -1,4 +1,29 @@
-﻿<!DOCTYPE html>
+﻿@using System.Globalization;
+
+@{
+    ViewData["Title"] = "Home page | Foot Moon - The movie";
+
+    var nowUtc = DateTime.UtcNow;
+
+
+    //PENSER A CHANGER LA DISPO DANS LE INDEX AUSSI POUR LES ELEMENTS DE LA PAGE
+    var year = 2023;
+    var month = 12;
+    var day = 15;
+    var hours = 12;
+    var minutes = 0;
+
+    long ticks = new DateTime(year, month, day, hours, minutes, 0,
+    new CultureInfo("en-US", false).Calendar).Ticks;
+
+    var realeaseDatetime = new DateTime(ticks);
+
+    bool showAllSection = false;
+    string bgColortoAdd = "";
+    string txtColortoAdd = "";
+}
+
+<!DOCTYPE html>
 <html style="font-size: 16px;" lang="ena">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,30 +62,132 @@
  <body data-home-page="Footmoon-the-movie.html" data-home-page-title="Footmoon the movie" class="u-body u-xl-mode" data-lang="ena" data-lang-fr="{&quot;head-title&quot;:&quot;&quot;,&quot;head-keywords&quot;:&quot;&quot;,&quot;head-description&quot;:&quot;&quot;}" data-lang-ena="{&quot;head-title&quot;:&quot;&quot;,&quot;head-keywords&quot;:&quot;&quot;,&quot;head-description&quot;:&quot;&quot;}">
      <header class="u-align-center-sm u-align-center-xs u-clearfix u-custom-color-2 u-header u-sticky u-sticky-bc8e u-header" id="sec-f999">
          <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-            <span class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" style="width:0px;"></span>
-        @*<img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/movies-clipart-film-festival.png" alt="" data-image-width="150" data-image-height="84" data-lang-ena="" data-lang-fr="">*@
-            <p class="u-custom-font u-text u-text-1" data-lang-ena="FOOTMOON" style="  font-family: Agency FB;text-align:left;padding-left:10px;" data-lang-fr="​<span class=&quot;u-block-bc8e-27 u-icon&quot; style=&quot;&quot;></span>&amp;nbsp;FOOTMOON">FOOT MOON - The Movie</p>
-        <div class="u-social-icons u-spacing-15 u-social-icons-1">
-                <a class="u-social-url" title="tiktok" target="_blank" href="https://www.tiktok.coméd">
-                    <span class="u-icon u-social-icon u-social-tiktok u-icon-2 social-icon-circle">
 
-                        <img src="~/images/tiktok100.png" style="height:auto;" />
 
-                    </span>
+            <nav class="navbar navbar-dark fixed-top" style="padding:0px;margin-top: 10px;">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="~/images/body2.png" width="40" height="auto" alt="">
                 </a>
-          <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/footmoon.themovie"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0fe1"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0fe1"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
-      c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
-          </a>
+                   
+                    <div class=" navbar-brand u-social-icons u-spacing-15 u-social-icons-1">
+                       
+                     @*   <a class="u-social-url" title="tiktok" target="_blank" href="https://www.youtube.com/@@backaflipa">
+                            <span class="u-icon u-social-icon u-social-tiktok u-icon-2 social-icon-circle">
 
+                                <img src="~/images/youtube100.png" style="height:auto;" />
 
+                            </span>
+                        </a>*@
+                        <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/footmoon.themovie">
+                            <span class="u-icon u-social-facebook u-social-icon u-icon-1">
+                                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0fe1"></use></svg>
+                                <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0fe1">
+                                    <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
+                                    <path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+      c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path>
+                                </svg>
+                            </span>
+                        </a>
 
-          <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/footmoon.themovie/"><span class="u-icon u-social-icon u-social-instagram u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e8f6"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-e8f6"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-      z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+                        <a class="u-social-url" title="tiktok" target="_blank" href="https://www.tiktok.com/@@backa.flipa">
+                            <span class="u-icon u-social-icon u-social-tiktok u-icon-2 social-icon-circle">
+
+                                <img src="~/images/tiktok100.png" style="height:auto;" />
+
+                            </span>
+                        </a>
+
+                        <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/footmoon.themovie/">
+                            <span class="u-icon u-social-icon u-social-instagram u-icon-2">
+                                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e8f6"></use></svg>
+                                <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-e8f6">
+                                    <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
+                                    <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+      z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path>
+                                    <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path>
+                                    <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
       C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
-      c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
-          </a>
-              
-        </div>
+      c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path>
+                                </svg>
+                            </span>
+                        </a>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color:#121212;font-family: Agency FB;font-size:x-large">
+                        <div class="offcanvas-header" style="font-size:xx-large">
+                           
+                           footmoon - the movie
+                              
+                           
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" >
+                               
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:x-large">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+
+                                            
+                                        @if (DateTime.Now >= realeaseDatetime || showAllSection)
+                                        {
+
+                                            <li><a class="dropdown-item" href="#sec-5161">Trailer</a></li>
+                                            <li><a class="dropdown-item" href="#sec-e1b0">Introcduction</a></li>
+                                            <li><a class="dropdown-item" href="#carousel_344b">Full movie</a></li>
+                                            <li><a class="dropdown-item" href="#sec-6cfe">Awards</a></li>
+                                            <li><a class="dropdown-item" href="#">Comments</a></li>
+                                            <li><a class="dropdown-item" href="#">Merch</a></li>
+                                            <li><a class="dropdown-item" href="#sec-part">Partners</a></li>
+                                            <li><a class="dropdown-item" href="#sec-8a7d">Contact</a></li>
+                                            <li><a class="dropdown-item" href="#sec-f959">Photos</a></li>
+
+                                        }
+                                        else
+                                        {
+                                            <li><a class="dropdown-item" href="#sec-d0a9">Release Date</a></li>
+                                            <li><a class="dropdown-item" href="#sec-5161">Trailer</a></li>
+                                            <li><a class="dropdown-item" href="#sec-6cfe">Awards</a></li>
+                                            <li><a class="dropdown-item" href="#">Comments</a></li>
+                                            <li><a class="dropdown-item" href="#">Merch</a></li>
+                                            <li><a class="dropdown-item" href="#sec-part">Partners</a></li>
+                                            <li><a class="dropdown-item" href="#sec-8a7d">Contact</a></li>
+                                            <li><a class="dropdown-item" href="#sec-f959">Photos</a></li>
+
+                                        }
+
+                                    
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="https://watch.footmoon.com/products" style="font-size:x-large">Watch</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://shop.footmoon.com/"  style="font-size:x-large">Shop</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+         
+
+       
         </div>
       </header>
     
