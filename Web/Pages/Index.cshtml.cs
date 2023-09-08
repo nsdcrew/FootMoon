@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Web.Pages
 {
+
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
@@ -19,6 +20,7 @@ namespace Web.Pages
         {
 
         }
+
 
         public void OnPost()
         {
