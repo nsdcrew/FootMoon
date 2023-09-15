@@ -6,7 +6,7 @@ using System.IO;
 using Web;
 using Web.Pages;
 
-[IgnoreAntiforgeryToken]
+//[IgnoreAntiforgeryToken]
 public class WebhookModel : PageModel
 {
 
@@ -33,7 +33,7 @@ public class WebhookModel : PageModel
             var webhookData = JsonConvert.DeserializeObject<WebhookData>(requestBody);
 
             // Handle the purchase event
-            //if (webhookData?.type == "purchase.created")
+            //if (webhookData?.type == "customer.tvod.created")
             //{
             //    // Map DTO to entity classes (you may use AutoMapper for this)
             //    var entityData = MapToEntity(webhookData);
@@ -53,7 +53,7 @@ public class WebhookModel : PageModel
 
         }
 
-         // Respond with an empty result to acknowledge receipt of the webhook
+        // Respond with an empty result to acknowledge receipt of the webhook
     }
 
     // Helper method to map DTO to entity classes
