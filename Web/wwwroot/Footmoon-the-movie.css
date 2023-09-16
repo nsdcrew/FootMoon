@@ -1769,3 +1769,38 @@
         font-size: 1.5rem;
     }
 }
+
+
+
+
+    .carousel-item {
+   
+        color: white;
+        font-family: agency FB;
+       
+        font-size:xx-large;
+    }
+
+
+
+
+
+.imgMerch {
+    max-width: 300px;
+    width: 100%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+    /* Style for individual images */
+    .image-grid img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+    }

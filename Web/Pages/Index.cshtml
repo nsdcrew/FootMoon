@@ -20,6 +20,7 @@
     var realeaseDatetime = new DateTime(ticks);
 
     bool showAllSection = false;
+    bool showFotoSection = false;
     string bgColortoAdd = "";
     string txtColortoAdd = "";
 }
@@ -29,7 +30,7 @@
         <img class="u-align-center u-image u-image-contain u-image-default u-image-2" src="images/titlec1.png" alt="" data-image-width="1175" data-image-height="100" data-lang-fr="" data-lang-ena="">
         <p class="u-align-center u-custom-font u-text u-text-grey-25 u-text-1" style=""  data-lang-ena="in Mexico" data-lang-fr="in Mexico">in Mexico</p>
         <img class="u-align-center u-expanded-width-xs u-image u-image-contain u-image-default u-image-3" src="images/body3.png" alt="" data-image-width="1527" data-image-height="1378" data-lang-fr="" data-lang-ena="">
-        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;"  >Movie Languages</p><span class="u-file-icon u-icon u-icon-1"><img src="images/330490.png" alt=""></span><span class="u-file-icon u-icon u-icon-2"><img src="images/330425.png" alt=""></span><span class="u-file-icon u-icon u-icon-3"><img src="images/330557.png" alt=""></span>
+        <p class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;"  >Movie Subtitles</p><span class="u-file-icon u-icon u-icon-1"><img src="images/330490.png" alt=""></span><span class="u-file-icon u-icon u-icon-2"><img src="images/330425.png" alt=""></span><span class="u-file-icon u-icon u-icon-3"><img src="images/330557.png" alt=""></span>
         
         
         @if (DateTime.Now >= realeaseDatetime || showAllSection)
@@ -159,7 +160,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                                 <input type="email" placeholder="Email" id="email-558c" name="email" class="u-input u-input-rectangle" required="" data-lang-fr="Email" data-lang-ena="Email">
                             </div>
                             <div class="u-form-group u-form-submit u-label-none">
-                                <a href="#" class="u-btn u-btn-submit u-button-style u-palette-3-base u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}" data-lang-ena="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}">Ok remind me !</a>
+                                <a href="#" class="u-btn u-button-style u-palette-3-base u-btn-1" data-lang-fr="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}" data-lang-ena="{&quot;content&quot;:&quot;remind me baby !&quot;,&quot;href&quot;:&quot;#&quot;}">Ok remind me !</a>
                                 <input type="submit" value="submit" class="u-form-control-hidden">
 
                             </div>
@@ -225,7 +226,7 @@ else
     <section class="u-align-center u-clearfix u-section-4" id="sec-e1b0">
         <div class="u-clearfix u-sheet u-sheet-1">
             <h2 class="u-custom-font u-text u-text-1" data-lang-fr="introduction section" data-lang-ena="introduction section" style="font-family: agency FB;">Introduction</h2>
-            <p class="u-align-center u-custom-font u-text u-text-2" style="font-family: agency FB;" data-lang-fr="​Since the official release of the movie (15/12/23), we offer you to watch the introduction section for free" data-lang-ena="​Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free"> Since the official release of the movie (01/12/23), we offer you to watch the introduction section for free</p>
+            <p class="u-align-center u-custom-font u-text u-text-2" style="font-family: agency FB;" data-lang-fr="​Since the official release of the movie (15/12/23), we offer you to watch the introduction section for free" data-lang-ena="​Since the official release of the movie (15/12/23), we offer you to watch the introduction section for free"> Since the official release of the movie (15/12/23), we offer you to watch the introduction section for free</p>
             <div class="u-video u-video-1">
                 <div class="embed-responsive embed-responsive-1">
                     <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/6JVTcjgRebc" frameborder="0" allowfullscreen=""></iframe>
@@ -252,7 +253,7 @@ else
 
 
             <a href="/images/watchOnTv.PNG" target="_blank" class="u-align-center u-border-none" style="color:white">
-                How to watch on a SMART TV
+                How to watch it on a SMART TV
             </a>
         </div>
     </section>
@@ -376,7 +377,7 @@ else
 
 
 <section class="skrollable u-align-center u-clearfix u-parallax u-white u-section-8" src="" id="merchs">
-    <div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-clearfix u-sheet u-sheet-1" style="margin-bottom:70px;">
         <h3 class="u-custom-font u-text u-text-1" style="font-family: agency FB;margin-bottom:30px;">Merch</h3>
 
 
@@ -426,287 +427,337 @@ else
     </div>
 </section>
 
-<section class="u-align-center u-clearfix u-custom-color-1 u-section-8" id="sec-f959" style="background-color:black;">
-    <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-default u-text-1" style="font-family: agency FB;" data-lang-fr="Photos" data-lang-ena="Photos">Photos</h1>
-        <div class="u-carousel u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" data-interval="5000" data-u-ride="carousel" id="carousel-6f0c">
-            <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="6" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="7" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="8" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="9" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="10" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="11" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="12" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="13" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="14" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="15" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="16" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="17" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="18" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                <li data-u-target="#carousel-6f0c" data-u-slide-to="19" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-            </ol>
-            <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                    <div class="u-back-slide" data-image-width="1280" data-image-height="852">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/ged823006dd5340613ee8defb2336b1d983081740eef534664113ec7a6d0aaf9c7a144fbf4b5196256ff6003cf05775dca40b5f32d3d2c59cc00cdd221114b020_1280.jpg">
+@if(showFotoSection)
+{
+
+
+    <section class="u-align-center u-clearfix u-custom-color-1 u-section-8" id="sec-f959" style="background-color:black;">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <h1 class="u-custom-font u-text u-text-default u-text-1" style="font-family: agency FB;" data-lang-fr="Photos" data-lang-ena="Photos">Photos</h1>
+            <div class="u-carousel u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" data-interval="5000" data-u-ride="carousel" id="carousel-6f0c">
+                <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="6" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="7" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="8" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="9" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="10" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="11" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="12" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="13" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="14" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="15" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="16" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="17" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="18" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    <li data-u-target="#carousel-6f0c" data-u-slide-to="19" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                </ol>
+                <div class="u-carousel-inner u-gallery-inner" role="listbox">
+                    <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
+                        <div class="u-back-slide" data-image-width="1280" data-image-height="852">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/ged823006dd5340613ee8defb2336b1d983081740eef534664113ec7a6d0aaf9c7a144fbf4b5196256ff6003cf05775dca40b5f32d3d2c59cc00cdd221114b020_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-1"></div>
                     </div>
-                    <div class="u-over-slide u-over-slide-1"></div>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                    <div class="u-back-slide" data-image-width="1280" data-image-height="853">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gc3e1ea7babd782d77c9919f2fb6bc0d6922421d020c3a1f4258f3b6d14ad8b60cea60bf393a64f88a0073139414bd698e964cf44318f0c5c9e0b2b04cf4a81ba_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-2">
+                        <div class="u-back-slide" data-image-width="1280" data-image-height="853">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gc3e1ea7babd782d77c9919f2fb6bc0d6922421d020c3a1f4258f3b6d14ad8b60cea60bf393a64f88a0073139414bd698e964cf44318f0c5c9e0b2b04cf4a81ba_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-2"></div>
                     </div>
-                    <div class="u-over-slide u-over-slide-2"></div>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="831">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="images/4eff0bf428ed74ab734a91b2c7bd372a48bc1b166e7bb1fbc6ef50f875a66dec38b8d1f74cf1f587952a82cee64de98de899e8e1e7317753d0a979_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="831">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="images/4eff0bf428ed74ab734a91b2c7bd372a48bc1b166e7bb1fbc6ef50f875a66dec38b8d1f74cf1f587952a82cee64de98de899e8e1e7317753d0a979_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-3"></div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-3"></div>
-                    <style data-mode="XL" data-visited="true"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-4" data-image-width="1280" data-image-height="863">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g99af68f78f1df1733f3a24784ad3de98db9cc911e89dd32ccfd4f16676ac79924d44cd5feb1f0236345dc5d10cc129f37ff60cec6d977da864bccec1125f3489_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-4" data-image-width="1280" data-image-height="863">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g99af68f78f1df1733f3a24784ad3de98db9cc911e89dd32ccfd4f16676ac79924d44cd5feb1f0236345dc5d10cc129f37ff60cec6d977da864bccec1125f3489_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-4"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-4"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-5" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="images/80005d08d3775243e3085b5ff5e0a3d1f0df144b541fef533e59cca43793cc337cf69be7a8d8c4e44497946542471f2078bfd307716c256cfc5a92_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-5" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="images/80005d08d3775243e3085b5ff5e0a3d1f0df144b541fef533e59cca43793cc337cf69be7a8d8c4e44497946542471f2078bfd307716c256cfc5a92_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-5"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-5"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-6" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfef28fbb887d20b63fbae905550094ba5e171fefb6284d0329d367a0c32a3cf99c0dac16a3f8e7141e49d4322bbfaca2c49310bf44a4a003d42fbf2eebdb7689_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-6" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfef28fbb887d20b63fbae905550094ba5e171fefb6284d0329d367a0c32a3cf99c0dac16a3f8e7141e49d4322bbfaca2c49310bf44a4a003d42fbf2eebdb7689_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-6"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-6"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-7" data-image-width="1280" data-image-height="855">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g0e5965c9887572f341217b28930bb052a4c68a51a7e8285e968edf207c8af98f83a0cb8577f2cbc84431b67c0e0b0ba0ef4d62ebbb181bb3e048dd73bcb4208c_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-7" data-image-width="1280" data-image-height="855">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g0e5965c9887572f341217b28930bb052a4c68a51a7e8285e968edf207c8af98f83a0cb8577f2cbc84431b67c0e0b0ba0ef4d62ebbb181bb3e048dd73bcb4208c_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-7"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-7"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-8" data-image-width="1280" data-image-height="854">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g559ed46b2f1fb9aac373085aea5c51e65f917f11f427eaf91487ccc933a8e37a66d9c3919f2068b915100c6579ee0b6c18239cb26bb60cb491119f9f543fe215_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-8" data-image-width="1280" data-image-height="854">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g559ed46b2f1fb9aac373085aea5c51e65f917f11f427eaf91487ccc933a8e37a66d9c3919f2068b915100c6579ee0b6c18239cb26bb60cb491119f9f543fe215_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-8"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-8"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-9" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g96e2eaf086b08778ab414c4b5eaf3100feff712593b1bb6a662a44c9e6dc8d24eb17a667203e3261d211fdaf576bc4250145ba205772d41330259d9a3ad51446_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-9" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g96e2eaf086b08778ab414c4b5eaf3100feff712593b1bb6a662a44c9e6dc8d24eb17a667203e3261d211fdaf576bc4250145ba205772d41330259d9a3ad51446_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-9"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-9"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-10" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/ga9da7d5b1b64aba824b75fcf666b97bf32eea74e1765d4488d4e6feb2a38768ab794cd5f0a76236ad836b593ab4750eee1fcc8a589a147bdb7a03964a1695fdc_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-10" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/ga9da7d5b1b64aba824b75fcf666b97bf32eea74e1765d4488d4e6feb2a38768ab794cd5f0a76236ad836b593ab4750eee1fcc8a589a147bdb7a03964a1695fdc_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-10"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-10"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-11" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g5c6dd7b3f47a8f389861c47c237ddb71e39f92c7a9e85f9e99ee1cbde36d210470b15caac22b89045dc968c4f61be2e7d2f67adf95102924e4e42ca89d07d1e3_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-11" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g5c6dd7b3f47a8f389861c47c237ddb71e39f92c7a9e85f9e99ee1cbde36d210470b15caac22b89045dc968c4f61be2e7d2f67adf95102924e4e42ca89d07d1e3_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-11"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-11"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-12" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gcd76d0692c58ce83f5d17f7efaf067a3bc29fda71a799d92edb77894912c8e9e02bf8e3f7c7aaf50d32463bac81ac6fd03795357a3a29f6169f2e62145a9b768_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-12" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gcd76d0692c58ce83f5d17f7efaf067a3bc29fda71a799d92edb77894912c8e9e02bf8e3f7c7aaf50d32463bac81ac6fd03795357a3a29f6169f2e62145a9b768_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-12"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-12"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-13" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2f164435a1090dadbdeb6ae5ee262aff2b173fe45bd348e505b4bd803154ea2f1b04c620a51e715cfcea7187d7c6978ce0db8b6bec1b71273cac4daa095488b6_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-13" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2f164435a1090dadbdeb6ae5ee262aff2b173fe45bd348e505b4bd803154ea2f1b04c620a51e715cfcea7187d7c6978ce0db8b6bec1b71273cac4daa095488b6_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-13"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-13"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-14" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2e8e4c4c28ff7dad14a5b521c71527b675884590d3f6c4d12d856bef47098bebea3991346ffae997503c849b74ded3c3770c8a07b753f1da1c78149a3cebcf87_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-14" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2e8e4c4c28ff7dad14a5b521c71527b675884590d3f6c4d12d856bef47098bebea3991346ffae997503c849b74ded3c3770c8a07b753f1da1c78149a3cebcf87_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-14"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-14"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-15" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfebc0b40503b9a404a6334431973401577024f83f4ccab1e24c8419b5fd9ec3e5cbbbedc69d8a44451bfbe4968f21c22325d7bf58c5df56d42c51396cfe8835e_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-15" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfebc0b40503b9a404a6334431973401577024f83f4ccab1e24c8419b5fd9ec3e5cbbbedc69d8a44451bfbe4968f21c22325d7bf58c5df56d42c51396cfe8835e_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-15"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-15"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-16" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gec9d880cac4381a6c19c54254bcacf805a7fc991ff0b6fc050e6c6f9a47f1178f0289a7725a75d513c78b8f27363038dc9f5fdd7dbb37dc1fe4e66f68999b929_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-16" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gec9d880cac4381a6c19c54254bcacf805a7fc991ff0b6fc050e6c6f9a47f1178f0289a7725a75d513c78b8f27363038dc9f5fdd7dbb37dc1fe4e66f68999b929_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-16"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-16"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-17" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gca7c42c93b2a55e4760f6bf2369b40681b0f2caf1f8be0c9a4b3136826bd62d1bae29b2cc4a4f8e2197bdff086a8ae92c4c0464f667e91a2ffbabafd1c6216e4_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-17" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gca7c42c93b2a55e4760f6bf2369b40681b0f2caf1f8be0c9a4b3136826bd62d1bae29b2cc4a4f8e2197bdff086a8ae92c4c0464f667e91a2ffbabafd1c6216e4_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-17"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-17"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-18" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/gb1f2f1d5cf50bc53b36ae44285d93c8301ac013685e377f588e019b4191a89c9cb9433478bc9377afb01732bd5f0bb6a4fa9598b80f68059b8c443bfd4f821ae_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-18" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gb1f2f1d5cf50bc53b36ae44285d93c8301ac013685e377f588e019b4191a89c9cb9433478bc9377afb01732bd5f0bb6a4fa9598b80f68059b8c443bfd4f821ae_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-18"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-18"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-19" data-image-width="1280" data-image-height="720">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g215d82d6b0343891c196c7f8ec286da89fb320bf28f98715584178376e250d77e7947f8dc9689945fa06182dae7a5181e09e5cefd7ac5d84ea5056ce4e2eb90e_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-19" data-image-width="1280" data-image-height="720">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g215d82d6b0343891c196c7f8ec286da89fb320bf28f98715584178376e250d77e7947f8dc9689945fa06182dae7a5181e09e5cefd7ac5d84ea5056ce4e2eb90e_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-19"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-19"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
-                </div>
-                <div class="u-carousel-item u-gallery-item u-carousel-item-20" data-image-width="1280" data-image-height="853">
-                    <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="https://pixabay.com/get/g527c61d63851bbbfec05c39daa9ea37e89600996bd790b0e32c955693a47e335dbd8d74e1f8b9c4ce0ca5e6ead0c2f7a349c36e0ba1681c5ec6ece7849d79128_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-20" data-image-width="1280" data-image-height="853">
+                        <div class="u-back-slide">
+                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g527c61d63851bbbfec05c39daa9ea37e89600996bd790b0e32c955693a47e335dbd8d74e1f8b9c4ce0ca5e6ead0c2f7a349c36e0ba1681c5ec6ece7849d79128_1280.jpg">
+                        </div>
+                        <div class="u-over-slide u-over-slide-20"></div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG" data-visited="true"></style>
+                        <style data-mode="MD" data-visited="true"></style>
+                        <style data-mode="SM" data-visited="true"></style>
+                        <style data-mode="XS" data-visited="true"></style>
                     </div>
-                    <div class="u-over-slide u-over-slide-20"></div>
-                    <style data-mode="XL"></style>
-                    <style data-mode="LG" data-visited="true"></style>
-                    <style data-mode="MD" data-visited="true"></style>
-                    <style data-mode="SM" data-visited="true"></style>
-                    <style data-mode="XS" data-visited="true"></style>
                 </div>
+                <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-6f0c" role="button" data-u-slide="prev">
+                    <span aria-hidden="true">
+                        <svg viewBox="0 0 451.847 451.847">
+                            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+                        </svg>
+                    </span>
+                    <span class="sr-only">
+                        <svg viewBox="0 0 451.847 451.847">
+                            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+                        </svg>
+                    </span>
+                </a>
+                <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-6f0c" role="button" data-u-slide="next">
+                    <span aria-hidden="true">
+                        <svg viewBox="0 0 451.846 451.847">
+                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+                        </svg>
+                    </span>
+                    <span class="sr-only">
+                        <svg viewBox="0 0 451.846 451.847">
+                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+                        </svg>
+                    </span>
+                </a>
             </div>
-            <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-6f0c" role="button" data-u-slide="prev">
-                <span aria-hidden="true">
-                    <svg viewBox="0 0 451.847 451.847">
-                        <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                    </svg>
-                </span>
-                <span class="sr-only">
-                    <svg viewBox="0 0 451.847 451.847">
-                        <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                    </svg>
-                </span>
-            </a>
-            <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-6f0c" role="button" data-u-slide="next">
-                <span aria-hidden="true">
-                    <svg viewBox="0 0 451.846 451.847">
-                        <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                    </svg>
-                </span>
-                <span class="sr-only">
-                    <svg viewBox="0 0 451.846 451.847">
-                        <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                    </svg>
-                </span>
-            </a>
+            <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="">Photos by Thomas Camus (Real pics of the movie are coming soon)</p>
         </div>
-        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="" data-lang-ena="">Photos by Thomas Camus (Real pics of the movie are coming soon)</p>
+    </section>
+    
+}
+
+
+
+
+<section class="skrollable u-align-center u-clearfix u-image skrollable-betweenu-custom-color-1  u-section-7" style="height:500px; background-image: url(images/tigre2.jpg);" id="comments">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;">Comments</h1>
+
+
+
+        <div id="myCarousel2" class="carousel slide" data-ride="carousel" style=" margin-top:70px;">
+
+            <!-- Indicators -->
+            @*  <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>*@
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+           " Best rollerblading documentary i have seen so far ! "
+                </div>
+                <div class="carousel-item">
+           " Julien is so WOW ! "
+                </div>
+                <div class="carousel-item">
+           " I did not know this sport existed before watching the movie but i love it ! "
+                </div>
+            
+            </div>
+
+
+
+            <!-- Left and right controls -->
+            @*             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>*@
+
+
+        </div>
+
+
+
+
+
     </div>
-</section>
-
-
-
-<section class="skrollable u-align-center u-clearfix u-image u-parallax skrollable-betweenu-custom-color-1  u-section-6" style="height:500px; background-image: url(images/urgence.PNG);" id="comments">
-
-
-
 
 </section>
 
@@ -730,40 +781,14 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     <script>
 
 
-        const customCarouselTrack = document.getElementById("customCarouselTrack");
-        const customPrevButton = document.getElementById("customPrevButton");
-        const customNextButton = document.getElementById("customNextButton");
-        const customItems = document.querySelectorAll(".custom-carousel-item");
-        let customCurrentIndex = 0;
-
-        // Function to move the custom carousel to the specified index
-        function moveToCustomIndex(index) {
-            const customItemWidth = customItems[0].offsetWidth;
-            const customOffset = -index * customItemWidth;
-            customCarouselTrack.style.transform = `translateX(${customOffset}px)`;
-            customCurrentIndex = index;
-        }
-
-        // Event listener for the previous button
-        customPrevButton.addEventListener("click", () => {
-            if (customCurrentIndex > 0) {
-                moveToCustomIndex(customCurrentIndex - 1);
-            }
-        });
-
-        // Event listener for the next button
-        customNextButton.addEventListener("click", () => {
-            if (customCurrentIndex < customItems.length - 1) {
-                moveToCustomIndex(customCurrentIndex + 1);
-            }
-        });
-
 
         $(document).ready(function () {
 
 
+
             $(function () {
                 $('#myCarousel').carousel({ interval: 3000 })
+                $('#myCarousel2').carousel({ interval: 3000 })
             })
 
             const minute = 1000 * 60;
