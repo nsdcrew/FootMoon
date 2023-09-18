@@ -33,6 +33,11 @@
     <title>Footmoon the movie</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Footmoon-the-movie.css" media="screen">
+
+    <link rel="alternate" hreflang="en-US" href="https://footmoon.com/?culture=en-US" />
+    <link rel="alternate" hreflang="fr-FR" href="https://footmoon.com/?culture=fr-FR" />
+    <link rel="alternate" hreflang="es-ES" href="https://footmoon.com/?culture=es-ES" />
+
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
@@ -115,13 +120,16 @@
                         </a>
 
                     </div>
+
+
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color:#121212;font-family: Agency FB;font-size:x-large">
                         <div class="offcanvas-header" style="font-size:xx-large">
-                           
-                           Footmoon - The movie
+
+                            Footmoon - @SharedLocalizer["TheMovie"]
                               
                            
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -131,35 +139,38 @@
                                
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle active" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:x-large">
-                                        Home
+                                        @SharedLocalizer["Home"]
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark">
 
                                             
                                         @if (DateTime.Now >= realeaseDatetime || showAllSection)
                                         {
+                                           
 
-                                            <li><a class="dropdown-item" href="#sec-5161">Trailer</a></li>
-                                            <li><a class="dropdown-item" href="#sec-e1b0">Introcduction</a></li>
-                                            <li><a class="dropdown-item" href="#carousel_344b">Full movie</a></li>
-                                            <li><a class="dropdown-item" href="#sec-6cfe">Awards</a></li>
-                                            <li><a class="dropdown-item" href="#comments">Comments</a></li>
-                                            <li><a class="dropdown-item" href="#merchs">Merch</a></li>
-                                            <li><a class="dropdown-item" href="#sec-part">Partners</a></li>
-                                            <li><a class="dropdown-item" href="#sec-8a7d">Contact</a></li>
-                                            <li><a class="dropdown-item" href="#sec-f959">Photos</a></li>
+                                            <li><a class="dropdown-item" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-e1b0">@SharedLocalizer["MenuSubItemIntroduction"]</a></li>
+                                            <li><a class="dropdown-item" href="#carousel_344b">@SharedLocalizer["MenuSubItemFullMovie"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
+                                            <li><a class="dropdown-item" href="#merchs">@SharedLocalizer["MenuSubItemMerch"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
+                                            <li><a class="dropdown-item" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
+                                         
 
                                         }
                                         else
                                         {
-                                            <li><a class="dropdown-item" href="#sec-d0a9">Release Date</a></li>
-                                            <li><a class="dropdown-item" href="#sec-5161">Trailer</a></li>
-                                            <li><a class="dropdown-item" href="#sec-6cfe">Awards</a></li>
-                                            <li><a class="dropdown-item" href="#comments">Comments</a></li>
-                                            <li><a class="dropdown-item" href="#merchs">Merch</a></li>
-                                            <li><a class="dropdown-item" href="#sec-part">Partners</a></li>
-                                            <li><a class="dropdown-item" href="#sec-8a7d">Contact</a></li>
-                                            <li><a class="dropdown-item" href="#sec-f959">Photos</a></li>
+                                            <li><a class="dropdown-item" href="#sec-d0a9">@SharedLocalizer["MenuSubItemReleaseDate"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
+                                            <li><a class="dropdown-item" href="#merchs">@SharedLocalizer["MenuSubItemMerch"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
+                                            <li><a class="dropdown-item" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
+                                            <li><a class="dropdown-item" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
+
 
                                         }
 
@@ -171,13 +182,13 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " target="_blank" aria-current="page" href="https://watch.footmoon.com/products" style="font-size:x-large">Watch</a>
+                                    <a class="nav-link " target="_blank" aria-current="page" href="https://watch.footmoon.com/products" style="font-size:x-large">@SharedLocalizer["Watch"]</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" target="_blank" href="https://shop.footmoon.com/" style="font-size:x-large">Shop</a>
+                                    <a class="nav-link" target="_blank" href="https://shop.footmoon.com/" style="font-size:x-large">@SharedLocalizer["Shop"]</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -185,8 +196,20 @@
                                 <li class="nav-item">
                                     <a class="nav-link" target="_blank" href="https://www.imdb.com/title/tt28703589/" style="font-size:x-large">IMDb</a>
                                 </li>
-                                
+                                <li class="nav-item">
+                                    <br /><br /><br /><br />
+                                </li>
+                                  
+                                <li class="nav-item">
+                                    <a href="/?culture=en-US"><img src="images/330425.png" style="width:10%; margin-right:50px;margin-left:80px;" alt=""></a>
+                                    <a href="/?culture=fr-FR"><img src="images/330490.png" style="width:10%; margin-right:50px;" alt=""></a>
+                                    <a href="/?culture=es-ES"><img src="images/330557.png" style="width:10%;margin-right:50px;" alt=""></a>
+                                </li>
+                            
+
+
                             </ul>
+
                         </div>
                     </div>
                 </div>
@@ -208,7 +231,7 @@
       
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-5925" style="    background-color: black;font-family: agency FB;" >
         <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-            <p class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-font u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-1" style="font-family: agency FB;" data-lang-ena="​©2023 Footmoon - all right reserved" data-lang-fr="​©2023 Footmoon - all right reserved"> ©2023 Footmoon - all right reserved</p>
+            <p class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-font u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-1" style="font-family: agency FB;"> ©2023 Footmoon - @SharedLocalizer["AllRightReserved"]</p>
         </div>
     </footer>
     <span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px; padding: 15px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-3-base" data-href="#">

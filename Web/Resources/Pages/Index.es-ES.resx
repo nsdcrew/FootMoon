@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acroche" xml:space="preserve">
+    <value>La increíble historia de un joven que quiso tocar el cielo, mandando su pie...&amp;nbsp;¡¡¡Asta la luna!!!</value>
+  </data>
+  <data name="AreUReady" xml:space="preserve">
+    <value>¿Estás list(o)(a) para ir en la luna con Julien Cudot?</value>
+  </data>
+  <data name="cannes" xml:space="preserve">
+    <value>Todavía esperando al `Festivale de Cannes` por la Palma...</value>
+  </data>
+  <data name="comment1" xml:space="preserve">
+    <value>¡El mejor documental sobre patinaje que he visto hasta ahora!</value>
+  </data>
+  <data name="comment2" xml:space="preserve">
+    <value>¡¡¡Julien es tan CALIENTE!!!</value>
+  </data>
+  <data name="comment3" xml:space="preserve">
+    <value>No sabía que existía este deporte antes de ver la película pero ¡me encanta!</value>
+  </data>
+  <data name="contactUs" xml:space="preserve">
+    <value>Contáctenos</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Una película producida &amp;amp; dirigida por Backa Flipa Producción con Julien Cudot, la aparición de Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez , Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro con la participación de Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
+  </data>
+  <data name="dontMissIt" xml:space="preserve">
+    <value>¡No te lo pierdas!</value>
+  </data>
+  <data name="fullMovie" xml:space="preserve">
+    <value>Película completa</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="HowWatchIt" xml:space="preserve">
+    <value>Cómo verlo en un SMART TV</value>
+  </data>
+  <data name="InMexico" xml:space="preserve">
+    <value>En Mexico</value>
+  </data>
+  <data name="langSubMess" xml:space="preserve">
+    <value>Seleccione el idioma de su elección utilizando los subtítulos disponibles en YouTube.</value>
+  </data>
+  <data name="LetWatchIt" xml:space="preserve">
+    <value>¡Vamos a ver eso!</value>
+  </data>
+  <data name="MakeComments" xml:space="preserve">
+    <value>Haz todos los comentarios que quieras directamente desde nuestras redes sociales</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="MovieOnlineIn" xml:space="preserve">
+    <value>Película disponible en línea en</value>
+  </data>
+  <data name="OkRemindMe" xml:space="preserve">
+    <value>Ok recuérdamelo!</value>
+  </data>
+  <data name="OrRemindMe" xml:space="preserve">
+    <value>¡ recuérdame por correo electrónico cuando esté disponible!</value>
+  </data>
+  <data name="PhotoByThoma" xml:space="preserve">
+    <value>Fotos de Thomas Camus</value>
+  </data>
+  <data name="pre_order" xml:space="preserve">
+    <value>Preordenar</value>
+  </data>
+  <data name="ReleaseDate" xml:space="preserve">
+    <value>15 de diciembre de 2023 a las 12:00 </value>
+  </data>
+  <data name="SelectLang" xml:space="preserve">
+    <value>Selecciona tu idioma</value>
+  </data>
+  <data name="shop" xml:space="preserve">
+    <value>Tienda</value>
+  </data>
+  <data name="sinceofficial" xml:space="preserve">
+    <value>Desde el lanzamiento oficial de la película (15/12/23), te ofrecemos ver la sección de introducción gratis.</value>
+  </data>
+  <data name="thxEmaill" xml:space="preserve">
+    <value>¡Gracias! Se le enviará un correo electrónico el día que esté disponible.</value>
+  </data>
+  <data name="thxParteners" xml:space="preserve">
+    <value>Nos gustaría agradecer a todos nuestros socios por su ayuda y confianza.</value>
+  </data>
+  <data name="Trailer" xml:space="preserve">
+    <value>Trailer</value>
+  </data>
+  <data name="WannaBe" xml:space="preserve">
+    <value>¿Quieres ser socio oficial, transmitir la película y hacer una pregunta sencilla?</value>
+  </data>
+  <data name="WatchFullMovie" xml:space="preserve">
+    <value>Ver la Película completa</value>
+  </data>
+  <data name="WatchIntro" xml:space="preserve">
+    <value>Ver el intro</value>
+  </data>
+  <data name="watch_trailer" xml:space="preserve">
+    <value>VER EL TRAILER</value>
+  </data>
+</root>
