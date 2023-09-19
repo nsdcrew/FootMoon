@@ -123,6 +123,9 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="InstallApp" xml:space="preserve">
+    <value>Instala la app</value>
+  </data>
   <data name="MenuSubItemAwards" xml:space="preserve">
     <value>Premios</value>
   </data>

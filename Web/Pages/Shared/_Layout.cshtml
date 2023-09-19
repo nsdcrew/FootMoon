@@ -44,6 +44,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <meta name="generator" content="Nicepage 5.12.7, nicepage.com">
     <meta name="referrer" content="origin">
+    <link rel="manifest" href="~/manifest.json">
     <link rel="icon" href="images/favicon.PNG">
     <link id="u-theme-google-font" rel="stylesheet" href="fonts.css">
     <link id="u-page-google-font" rel="stylesheet" href="Footmoon-the-movie-fonts.css">
@@ -182,13 +183,13 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " target="_blank" aria-current="page" href="https://watch.footmoon.com/products" style="font-size:x-large">@SharedLocalizer["Watch"]</a>
+                                    <a class="nav-link " aria-current="page" href="https://watch.footmoon.com/products" style="font-size:x-large">@SharedLocalizer["Watch"]</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" target="_blank" href="https://shop.footmoon.com/" style="font-size:x-large">@SharedLocalizer["Shop"]</a>
+                                    <a class="nav-link" href="https://shop.footmoon.com/" style="font-size:x-large">@SharedLocalizer["Shop"]</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -196,14 +197,21 @@
                                 <li class="nav-item">
                                     <a class="nav-link" target="_blank" href="https://www.imdb.com/title/tt28703589/" style="font-size:x-large">IMDb</a>
                                 </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li class="nav-item">
-                                    <br /><br /><br /><br />
+                                    <a href="#" data-js-preventDefault class="add-button nav-item" style="display:none;color: rgba(255,255,255,.55);font-size: x-large;text-decoration: none;">@SharedLocalizer["InstallApp"]</a>
+                                </li>
+                   
+                                <li class="nav-item">
+                                    <br /><br />
                                 </li>
                                   
-                                <li class="nav-item">
-                                    <a href="/?culture=en-US"><img src="images/330425.png" style="width:10%; margin-right:50px;margin-left:80px;" alt=""></a>
-                                    <a href="/?culture=fr-FR"><img src="images/330490.png" style="width:10%; margin-right:50px;" alt=""></a>
-                                    <a href="/?culture=es-ES"><img src="images/330557.png" style="width:10%;margin-right:50px;" alt=""></a>
+                                <li class="nav-item" style="">
+                                    <a href="/?culture=en-US" style="    text-align: center;"><img src="images/330425.png" style="width:50px;margin-left:30px;" alt=""></a>
+                                    <a href="/?culture=fr-FR" style="    text-align: center;"><img src="images/330490.png" style="width:50px;margin-left:50px;" alt=""></a>
+                                    <a href="/?culture=es-ES" style="    text-align: center;"><img src="images/330557.png" style="width:50px;margin-left:50px;" alt=""></a>
                                 </li>
                             
 

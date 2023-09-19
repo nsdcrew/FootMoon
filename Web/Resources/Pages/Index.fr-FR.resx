@@ -124,7 +124,7 @@
     <value>Êtes-vous prêt à aller sur la lune avec Julien Cudot ?</value>
   </data>
   <data name="cannes" xml:space="preserve">
-    <value>On attend toujours la Palme ... du Festival de Cannes !</value>
+    <value>On attend toujours la Palme ...</value>
   </data>
   <data name="comment1" xml:space="preserve">
     <value>Le meilleur documentaire sur le roller que j'ai vu jusqu'à présent !</value>
@@ -142,7 +142,7 @@
     <value>Jours</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot, Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez , Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
+    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot, Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>Ne le manquez pas !</value>
@@ -166,7 +166,7 @@
     <value>Regardons le!</value>
   </data>
   <data name="MakeComments" xml:space="preserve">
-    <value>Faites autant de commentaires que vous le souhaitez directement depuis nos réseaux sociaux</value>
+    <value>Faites autant de commentaires que vous le souhaitez directement depuis nos réseaux</value>
   </data>
   <data name="minutes" xml:space="preserve">
     <value>Minutes</value>

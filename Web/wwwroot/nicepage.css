@@ -21713,7 +21713,7 @@ section.u-dialog-block:not(.u-dialog-open) {
   display: table;
 }
 .u-countdown-wrapper {
-  display: flex;
+  display: inline-flex;
   align-items: baseline;
   flex-wrap: nowrap;
 }
