@@ -28,7 +28,7 @@
     var realeaseDatetime = new DateTime(ticks);
 
     bool showAllSection = false;
-    bool showFotoSection = false;
+    bool showFotoSection = true;
     string bgColortoAdd = "";
     string txtColortoAdd = "";
 }
@@ -398,6 +398,65 @@ else
 
 </section>
 
+<section class="skrollable u-align-center u-clearfix u-image u-parallax skrollable-betweenu-custom-color-1  u-section-6" style="background-image: url(images/frey.jpg);" id="sec-part">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" data-lang-fr="Our partners" data-lang-ena="Our partners" style="font-family: agency FB;width: 300px;">@SharedLocalizer["MenuSubItemPartners"]</h1>
+        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="We would like to thanks all our partners for their help and trust">@Localizer["thxParteners"]</p>
+        <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-1" data-image-width="500" data-image-height="500"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Partner 1</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-4" style="font-family: agency FB;">Short description</p>
+
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-2" data-image-width="356" data-image-height="356"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-5" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" href="" target="_blank">Partner 2</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-6" style="font-family: agency FB;">Short description</p>
+                        @*  <div class="u-social-icons u-spacing-10 u-social-icons-2">
+                        <a class="u-social-url" target="_blank" href="" title="fise officiel facebook">
+                        <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-4">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
+                        <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
+                        </span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href="" title="fise world twitter">
+                        <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-5">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
+                        <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
+                        </span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href="" title="fise world instagram">
+                        <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-6">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
+                        <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
+                        </span>
+                        </a>
+                        </div>*@
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-3" data-image-width="548" data-image-height="549"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="" target="_blank">Partner 3</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-body-alt-color u-text-8" style="font-family: agency FB;">Short description</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 @if(showFotoSection)
 {
@@ -430,21 +489,22 @@ else
                     <li data-u-target="#carousel-6f0c" data-u-slide-to="19" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
                 </ol>
                 <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                    <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                        <div class="u-back-slide" data-image-width="1280" data-image-height="852">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/ged823006dd5340613ee8defb2336b1d983081740eef534664113ec7a6d0aaf9c7a144fbf4b5196256ff6003cf05775dca40b5f32d3d2c59cc00cdd221114b020_1280.jpg">
+                    <div class="u-carousel-item u-gallery-item u-carousel-item-1">
+                        <div class="u-back-slide" data-image-width="1280" data-image-height="853">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/univ.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-1"></div>
                     </div>
-                    <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                        <div class="u-back-slide" data-image-width="1280" data-image-height="853">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gc3e1ea7babd782d77c9919f2fb6bc0d6922421d020c3a1f4258f3b6d14ad8b60cea60bf393a64f88a0073139414bd698e964cf44318f0c5c9e0b2b04cf4a81ba_1280.jpg">
+                    <div class="u-active u-carousel-item u-gallery-item u-carousel-item-2">
+                        <div class="u-back-slide" data-image-width="1280" data-image-height="852">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/sequence.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-2"></div>
                     </div>
+                   
                     <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="831">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/4eff0bf428ed74ab734a91b2c7bd372a48bc1b166e7bb1fbc6ef50f875a66dec38b8d1f74cf1f587952a82cee64de98de899e8e1e7317753d0a979_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/poto.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-3"></div>
                         <style data-mode="XL" data-visited="true"></style>
@@ -455,7 +515,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-4" data-image-width="1280" data-image-height="863">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g99af68f78f1df1733f3a24784ad3de98db9cc911e89dd32ccfd4f16676ac79924d44cd5feb1f0236345dc5d10cc129f37ff60cec6d977da864bccec1125f3489_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/tsoul.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-4"></div>
                         <style data-mode="XL"></style>
@@ -466,7 +526,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-5" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/80005d08d3775243e3085b5ff5e0a3d1f0df144b541fef533e59cca43793cc337cf69be7a8d8c4e44497946542471f2078bfd307716c256cfc5a92_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/jukid.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-5"></div>
                         <style data-mode="XL"></style>
@@ -477,7 +537,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-6" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfef28fbb887d20b63fbae905550094ba5e171fefb6284d0329d367a0c32a3cf99c0dac16a3f8e7141e49d4322bbfaca2c49310bf44a4a003d42fbf2eebdb7689_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/frybast.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-6"></div>
                         <style data-mode="XL"></style>
@@ -488,7 +548,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-7" data-image-width="1280" data-image-height="855">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g0e5965c9887572f341217b28930bb052a4c68a51a7e8285e968edf207c8af98f83a0cb8577f2cbc84431b67c0e0b0ba0ef4d62ebbb181bb3e048dd73bcb4208c_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/itw.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-7"></div>
                         <style data-mode="XL"></style>
@@ -499,7 +559,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-8" data-image-width="1280" data-image-height="854">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g559ed46b2f1fb9aac373085aea5c51e65f917f11f427eaf91487ccc933a8e37a66d9c3919f2068b915100c6579ee0b6c18239cb26bb60cb491119f9f543fe215_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/jubc.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-8"></div>
                         <style data-mode="XL"></style>
@@ -510,7 +570,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-9" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g96e2eaf086b08778ab414c4b5eaf3100feff712593b1bb6a662a44c9e6dc8d24eb17a667203e3261d211fdaf576bc4250145ba205772d41330259d9a3ad51446_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/jutsoul.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-9"></div>
                         <style data-mode="XL"></style>
@@ -521,7 +581,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-10" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/ga9da7d5b1b64aba824b75fcf666b97bf32eea74e1765d4488d4e6feb2a38768ab794cd5f0a76236ad836b593ab4750eee1fcc8a589a147bdb7a03964a1695fdc_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/dinner.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-10"></div>
                         <style data-mode="XL"></style>
@@ -532,7 +592,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-11" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g5c6dd7b3f47a8f389861c47c237ddb71e39f92c7a9e85f9e99ee1cbde36d210470b15caac22b89045dc968c4f61be2e7d2f67adf95102924e4e42ca89d07d1e3_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/city.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-11"></div>
                         <style data-mode="XL"></style>
@@ -543,7 +603,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-12" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gcd76d0692c58ce83f5d17f7efaf067a3bc29fda71a799d92edb77894912c8e9e02bf8e3f7c7aaf50d32463bac81ac6fd03795357a3a29f6169f2e62145a9b768_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/fry.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-12"></div>
                         <style data-mode="XL"></style>
@@ -554,7 +614,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-13" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2f164435a1090dadbdeb6ae5ee262aff2b173fe45bd348e505b4bd803154ea2f1b04c620a51e715cfcea7187d7c6978ce0db8b6bec1b71273cac4daa095488b6_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/fish.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-13"></div>
                         <style data-mode="XL"></style>
@@ -565,7 +625,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-14" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g2e8e4c4c28ff7dad14a5b521c71527b675884590d3f6c4d12d856bef47098bebea3991346ffae997503c849b74ded3c3770c8a07b753f1da1c78149a3cebcf87_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/pino.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-14"></div>
                         <style data-mode="XL"></style>
@@ -576,7 +636,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-15" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gfebc0b40503b9a404a6334431973401577024f83f4ccab1e24c8419b5fd9ec3e5cbbbedc69d8a44451bfbe4968f21c22325d7bf58c5df56d42c51396cfe8835e_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/alfa.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-15"></div>
                         <style data-mode="XL"></style>
@@ -587,7 +647,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-16" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gec9d880cac4381a6c19c54254bcacf805a7fc991ff0b6fc050e6c6f9a47f1178f0289a7725a75d513c78b8f27363038dc9f5fdd7dbb37dc1fe4e66f68999b929_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/alfaju.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-16"></div>
                         <style data-mode="XL"></style>
@@ -598,7 +658,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-17" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gca7c42c93b2a55e4760f6bf2369b40681b0f2caf1f8be0c9a4b3136826bd62d1bae29b2cc4a4f8e2197bdff086a8ae92c4c0464f667e91a2ffbabafd1c6216e4_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/backflip.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-17"></div>
                         <style data-mode="XL"></style>
@@ -609,7 +669,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-18" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/gb1f2f1d5cf50bc53b36ae44285d93c8301ac013685e377f588e019b4191a89c9cb9433478bc9377afb01732bd5f0bb6a4fa9598b80f68059b8c443bfd4f821ae_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/apero.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-18"></div>
                         <style data-mode="XL"></style>
@@ -620,7 +680,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-19" data-image-width="1280" data-image-height="720">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g215d82d6b0343891c196c7f8ec286da89fb320bf28f98715584178376e250d77e7947f8dc9689945fa06182dae7a5181e09e5cefd7ac5d84ea5056ce4e2eb90e_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/bastsoul.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-19"></div>
                         <style data-mode="XL"></style>
@@ -631,7 +691,7 @@ else
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-20" data-image-width="1280" data-image-height="853">
                         <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="https://pixabay.com/get/g527c61d63851bbbfec05c39daa9ea37e89600996bd790b0e32c955693a47e335dbd8d74e1f8b9c4ce0ca5e6ead0c2f7a349c36e0ba1681c5ec6ece7849d79128_1280.jpg">
+                            <img class="u-back-image u-expanded" src="/images/tof_tom/bs.jpg">
                         </div>
                         <div class="u-over-slide u-over-slide-20"></div>
                         <style data-mode="XL"></style>
@@ -682,65 +742,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
 
 
-<section class="skrollable u-align-center u-clearfix u-image u-parallax skrollable-betweenu-custom-color-1  u-section-6" style="background-image: url(images/frey.jpg);" id="sec-part">
-    <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" data-lang-fr="Our partners" data-lang-ena="Our partners" style="font-family: agency FB;width: 300px;">@SharedLocalizer["MenuSubItemPartners"]</h1>
-        <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;" data-lang-fr="We would like to thanks all our partners for their help and trust">@Localizer["thxParteners"]</p>
-        <div class="u-expanded-width u-list u-list-1">
-            <div class="u-repeater u-repeater-1">
-                <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" style="font-family: agency FB;">
-                        <div alt="" class="u-image u-image-circle u-image-1" data-image-width="500" data-image-height="500"></div>
-                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3" style="font-family: agency FB;">
-                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Partner 1</a>
-                        </h4>
-                        <p class="u-custom-font u-text u-text-body-alt-color u-text-4" style="font-family: agency FB;" >Short description</p>
 
-                    </div>
-                </div>
-                <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="font-family: agency FB;">
-                        <div alt="" class="u-image u-image-circle u-image-2" data-image-width="356" data-image-height="356"></div>
-                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-5" style="font-family: agency FB;">
-                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" href="" target="_blank">Partner 2</a>
-                        </h4>
-                        <p class="u-custom-font u-text u-text-body-alt-color u-text-6" style="font-family: agency FB;">Short description</p>
-                      @*  <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                            <a class="u-social-url" target="_blank" href="" title="fise officiel facebook">
-                                <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-4">
-                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
-                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
-                                </span>
-                            </a>
-                            <a class="u-social-url" target="_blank" href="" title="fise world twitter">
-                                <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-5">
-                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
-                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
-                                </span>
-                            </a>
-                            <a class="u-social-url" target="_blank" href="" title="fise world instagram">
-                                <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-6">
-                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
-                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
-                                </span>
-                            </a>
-                        </div>*@
-                    </div>
-                </div>
-                <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="font-family: agency FB;">
-                        <div alt="" class="u-image u-image-circle u-image-3" data-image-width="548" data-image-height="549"></div>
-                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
-                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="" target="_blank" >Partner 3</a>
-                        </h4>
-                        <p class="u-custom-font u-text u-text-body-alt-color u-text-8" style="font-family: agency FB;">Short description</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 @if (DateTime.Now >= realeaseDatetime || showAllSection)
 {
