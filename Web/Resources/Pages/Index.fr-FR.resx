@@ -126,6 +126,9 @@
   <data name="cannes" xml:space="preserve">
     <value>On attend toujours la Palme ...</value>
   </data>
+  <data name="ClickOnIt" xml:space="preserve">
+    <value>Cliquez dessus pour voir l'image en taille réelle</value>
+  </data>
   <data name="comment1" xml:space="preserve">
     <value>Le meilleur documentaire sur le roller que j'ai vu jusqu'à présent !</value>
   </data>
@@ -142,7 +145,7 @@
     <value>Jours</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot, Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
+    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot, Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>Ne le manquez pas !</value>
@@ -181,7 +184,7 @@
     <value>Ou rappelez-moi par email dès qu'il sera disponible !</value>
   </data>
   <data name="PhotoByThoma" xml:space="preserve">
-    <value>Photos par Thomas Camus</value>
+    <value>Photos par</value>
   </data>
   <data name="pre_order" xml:space="preserve">
     <value>Pré-commander</value>
@@ -197,9 +200,6 @@
   </data>
   <data name="sinceofficial" xml:space="preserve">
     <value>Depuis la sortie officielle du film (15/12/23), nous vous proposons de visionner gratuitement la partie introduction</value>
-  </data>
-  <data name="String1" xml:space="preserve">
-    <value />
   </data>
   <data name="thxEmaill" xml:space="preserve">
     <value>Merci! Un email vous sera envoyé le jour où il sera disponible.</value>

@@ -126,6 +126,9 @@
   <data name="cannes" xml:space="preserve">
     <value>Still waiting from `Festivale de Cannes` for the Palme ...</value>
   </data>
+  <data name="ClickOnIt" xml:space="preserve">
+    <value>Click on it to see full size picture</value>
+  </data>
   <data name="comment1" xml:space="preserve">
     <value>Best rollerblading documentary i have seen so far !</value>
   </data>
@@ -142,7 +145,7 @@
     <value>Days</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>A film produced &amp;amp; directed by Backa Flipa Production with Julien Cudot, the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboux, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
+    <value>A film produced &amp;amp; directed by Backa Flipa Production with Julien Cudot, the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>Don't miss it !</value>
@@ -181,7 +184,7 @@
     <value>Or remind me by email when it become available !</value>
   </data>
   <data name="PhotoByThoma" xml:space="preserve">
-    <value>Photos by Thomas Camus</value>
+    <value>Photos by</value>
   </data>
   <data name="pre_order" xml:space="preserve">
     <value>Pre order</value>
