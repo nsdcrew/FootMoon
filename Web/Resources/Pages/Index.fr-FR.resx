@@ -181,7 +181,7 @@
     <value>Ok, rappelle-moi !</value>
   </data>
   <data name="OrRemindMe" xml:space="preserve">
-    <value>Ou rappelez-moi par email dès qu'il sera disponible !</value>
+    <value>Rappelez-moi par email dès qu'il sera disponible !</value>
   </data>
   <data name="PhotoByThoma" xml:space="preserve">
     <value>Photos par</value>
