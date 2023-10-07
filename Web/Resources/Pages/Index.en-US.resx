@@ -145,7 +145,7 @@
     <value>Days</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>A film produced &amp;amp; directed by Backa Flipa Production with Julien Cudot (Official World Champion) , the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
+    <value>A film produced &amp;amp; directed by Backa Flipa Production with Julien Cudot (World Champion), the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>Don't miss it !</value>
@@ -207,8 +207,23 @@
   <data name="thxParteners" xml:space="preserve">
     <value>We would like to thanks all our partners for their help and trust</value>
   </data>
+  <data name="thxSoloInline" xml:space="preserve">
+    <value>All for roller skating! Solo Inline is the first specialized store for inline skates in Quebec</value>
+  </data>
   <data name="Trailer" xml:space="preserve">
     <value>Trailer</value>
+  </data>
+  <data name="txtClic-n-roll" xml:space="preserve">
+    <value>Clic-n-roll is a French store for skateboarding, rollerblading, and scootering, created and managed by enthusiasts since 2010</value>
+  </data>
+  <data name="txtMGlisse" xml:space="preserve">
+    <value>Your sports club specialized in the development and teaching of urban gliding sports in Toulon</value>
+  </data>
+  <data name="txtProyextoMexcio" xml:space="preserve">
+    <value>The best about #rollerblading in México. Traveling and filming the most incredible people on roller</value>
+  </data>
+  <data name="txtRollernews" xml:space="preserve">
+    <value>Your online source for Rollerblading Media</value>
   </data>
   <data name="WannaBe" xml:space="preserve">
     <value>Wanna be an official partner, broadcast the movie, ask a simple question ?</value>
@@ -221,5 +236,8 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>WATCH TRAILER</value>
+  </data>
+  <data name="yourImage" xml:space="preserve">
+    <value>Your brand here &amp; in the film ? contact us !</value>
   </data>
 </root>

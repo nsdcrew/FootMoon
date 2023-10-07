@@ -1,5 +1,5 @@
 .u-section-1 {
-    background-image: url("images/background cartoon.webp");
+    background-image: url("images/background cartoon2.webp");
     background-position: 50% 50%;
 }
 
@@ -1286,6 +1286,22 @@
     margin: 0 auto;
 }
 
+.u-section-6 .u-image-5 {
+    width: 240px;
+    height: 240px;
+    background-image: url("images/Mgls.webp");
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+
+.u-section-6 .u-image-6 {
+    width: 240px;
+    height: 240px;
+    background-image: url("images/clicnroll.webp");
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+
 .u-section-6 .u-text-7 {
   text-transform: none;
   font-size: 1.5rem;
@@ -1825,7 +1841,7 @@
     position: relative;
     overflow: hidden;
     height: 100%;
-    color: #a3c;
+    color: #2F88C2;
     background-color: #000;
 }
 /* ............................................................... */
@@ -1847,10 +1863,10 @@
 }
 
 #retrobg-sun {
-    --glow-color: #d44;
+    --glow-color: #2f88c2;
     padding-top: 100%;
     border-radius: 50%;
-    background-image: linear-gradient(#fcdf11, #ff623f, #fe2085 50%);
+    background-image: linear-gradient(#f9f9f9, #DBEBF8, #2F88C2 50%);
     box-shadow: 0 0 160px 80px var(--glow-color);
     animation: 2s ease infinite alternate retrobg-sun-glow-anim;
 }
@@ -1948,7 +1964,7 @@
     width: 100%;
     height: 45%;
     bottom: 0;
-    border-top: 2px solid #bf578c;
+    border-top: 2px solid #2F88C2;
     background-color: #000;
 }
 
