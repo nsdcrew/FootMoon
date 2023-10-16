@@ -120,11 +120,17 @@
   <data name="acroche" xml:space="preserve">
     <value>L'incroyable histoire d'un jeune garçon qui voulait toucher les étoiles en envoyant son pied...&amp;nbsp;À la lune !!!</value>
   </data>
+  <data name="AdrenalineAlley" xml:space="preserve">
+    <value>Le plus grand centre sportif urbain d'Europe</value>
+  </data>
   <data name="AreUReady" xml:space="preserve">
     <value>Êtes-vous prêt à aller sur la lune avec Julien Cudot ?</value>
   </data>
   <data name="cannes" xml:space="preserve">
     <value>On attend toujours la Palme ...</value>
+  </data>
+  <data name="ChicasRoller" xml:space="preserve">
+    <value>Groupe de patineuses mexicaines. Voyage et roller au Mexique</value>
   </data>
   <data name="ClickOnIt" xml:space="preserve">
     <value>Cliquez dessus pour voir l'image en taille réelle</value>
@@ -236,6 +242,9 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>VOIR LA BANDE-ANNONCE</value>
+  </data>
+  <data name="yourBrand" xml:space="preserve">
+    <value>Votre marque</value>
   </data>
   <data name="yourImage" xml:space="preserve">
     <value>Votre logo ici et dans le film ? Contactez-nous !</value>

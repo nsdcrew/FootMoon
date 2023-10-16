@@ -120,11 +120,17 @@
   <data name="acroche" xml:space="preserve">
     <value>La increíble historia de un joven que quiso tocar el cielo, mandando su pie...&amp;nbsp;¡¡¡Asta la luna!!!</value>
   </data>
+  <data name="AdrenalineAlley" xml:space="preserve">
+    <value>El centro deportivo urbano más grande de Europa</value>
+  </data>
   <data name="AreUReady" xml:space="preserve">
     <value>¿Estás list(o)(a) para ir en la luna con Julien Cudot?</value>
   </data>
   <data name="cannes" xml:space="preserve">
     <value>Todavía esperando noticias del `Festivale de Cannes` ...</value>
+  </data>
+  <data name="ChicasRoller" xml:space="preserve">
+    <value>Grupo de patinadoras Mexicanas. Viajando y difundiendo el Rollerblading en México</value>
   </data>
   <data name="ClickOnIt" xml:space="preserve">
     <value>Haga clic en él para ver la imagen en tamaño completo</value>
@@ -217,7 +223,7 @@
     <value>Clic-n-roll es una tienda francesa de skate, roller y patinete creada y gestionada por apasionados desde 2010</value>
   </data>
   <data name="txtMGlisse" xml:space="preserve">
-    <value>Tu club deportivo especializado en el desarrollo y la enseñanza de deportes de deslizamiento urbano en Toulon</value>
+    <value>Tu club deportivo especializado en el desarrollo y la enseñanza de deportes de deslizamiento urbano en Toulon (Francia)</value>
   </data>
   <data name="txtProyextoMexcio" xml:space="preserve">
     <value>Lo mejor sobre el #rollerblading en México. Viajando y filmando a las personas más increíbles sobre ruedas</value>
@@ -226,7 +232,7 @@
     <value>Tu medio en línea para el roller</value>
   </data>
   <data name="WannaBe" xml:space="preserve">
-    <value>¿Quieres ser socio oficial, transmitir la película y hacer una pregunta sencilla?</value>
+    <value>¿Quieres ser socio oficial, transmitir la película o hacer una pregunta ?</value>
   </data>
   <data name="WatchFullMovie" xml:space="preserve">
     <value>Ver la Película completa</value>
@@ -236,6 +242,9 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>VER EL TRAILER</value>
+  </data>
+  <data name="yourBrand" xml:space="preserve">
+    <value>Tu marca</value>
   </data>
   <data name="yourImage" xml:space="preserve">
     <value>¿Tu logo aquí y en la película? ¡Contáctanos!</value>

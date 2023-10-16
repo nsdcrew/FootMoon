@@ -120,11 +120,17 @@
   <data name="acroche" xml:space="preserve">
     <value>The incredible story of a young boy who wanted to touch the sky, by sending his foot...&amp;nbsp;To the moon !!!</value>
   </data>
+  <data name="AdrenalineAlley" xml:space="preserve">
+    <value>Europes Largest Urban Sports Centre</value>
+  </data>
   <data name="AreUReady" xml:space="preserve">
     <value>Are you ready to go to the moon with Julien Cudot?</value>
   </data>
   <data name="cannes" xml:space="preserve">
     <value>Still waiting from `Festivale de Cannes` for the Palme ...</value>
+  </data>
+  <data name="ChicasRoller" xml:space="preserve">
+    <value>Group of Mexican girls traveling and spreading Rollerblading in Mexico</value>
   </data>
   <data name="ClickOnIt" xml:space="preserve">
     <value>Click on it to see full size picture</value>
@@ -217,7 +223,7 @@
     <value>Clic-n-roll is a French store for skateboarding, rollerblading, and scootering, created and managed by enthusiasts since 2010</value>
   </data>
   <data name="txtMGlisse" xml:space="preserve">
-    <value>Your sports club specialized in the development and teaching of urban gliding sports in Toulon</value>
+    <value>Your sports club specialized in the development and teaching of urban gliding sports in Toulon (France)</value>
   </data>
   <data name="txtProyextoMexcio" xml:space="preserve">
     <value>The best about #rollerblading in México. Traveling and filming the most incredible people on roller</value>
@@ -236,6 +242,9 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>WATCH TRAILER</value>
+  </data>
+  <data name="yourBrand" xml:space="preserve">
+    <value>Your Brand</value>
   </data>
   <data name="yourImage" xml:space="preserve">
     <value>Your brand here &amp; in the film ? contact us !</value>

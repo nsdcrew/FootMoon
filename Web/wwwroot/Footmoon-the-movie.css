@@ -577,6 +577,12 @@
     margin-left: 68px;
     margin-right: 68px;
   }
+
+    .u-section-3 .u-video-1 {
+        height: 528px !important;
+        width: 940px !important;
+        margin: 41px auto 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -619,6 +625,13 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+    .u-section-3 .u-video-1 {
+        height: 440px !important;
+        width: 720px !important;
+        margin: 41px auto 0;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -722,9 +735,23 @@
   .u-section-2 .u-btn-2 {
     margin-top: 41px;
   }
+
+    .u-section-3 .u-video-1 {
+        height: 304px !important;
+        width: 540px !important;
+        margin: 41px auto 0;
+    }
 }
 
 @media (max-width: 575px) {
+
+
+    .u-section-3 .u-video-1 {
+        height: 190px !important;
+        width: 340px !important;
+        margin: 41px auto 0;
+    }
+
   .u-section-2 .u-sheet-1 {
     min-height: 1110px;
   }
@@ -847,8 +874,8 @@
 }
 
 .u-section-3 .u-video-1 {
-  height: 360px;
-  width: 640px;
+  height: 562px;
+  width: 1000px;
   margin: 41px auto 0;
 }
 
@@ -1192,6 +1219,7 @@
 .u-section-6 .u-text-4 {
   font-family: "Annie Use Your Telescope";
   margin: 12px 0 0;
+
 }
 
 .u-section-6 .u-social-icons-1 {
@@ -1301,6 +1329,23 @@
     background-position: 50% 50%;
     margin: 0 auto;
 }
+
+
+.u-section-6 .u-image-7 {
+    width: 240px;
+    height: 240px;
+    background-image: url("images/aa.webp");
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+.u-section-6 .u-image-8 {
+    width: 240px;
+    height: 240px;
+    background-image: url("images/chicas.webp");
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+
 
 .u-section-6 .u-text-7 {
   text-transform: none;
@@ -1702,8 +1747,15 @@
 
 .u-section-6 {
     color: black !important;
-    text-shadow: 0px 2px 8px rgba(0,0,0,1);
     background-image: none;
+
+}
+
+.whiteback {
+    border: white solid 1px;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,1);
+    margin: 20px;
 }
 
 @media (max-width: 1199px) {
@@ -1746,6 +1798,12 @@
 }
 
 @media (max-width: 767px) {
+
+
+    #rotatingImage {
+        left:35% !important;
+    }
+
   .u-section-8 .u-sheet-1 {
     min-height: 627px;
   }
@@ -1771,6 +1829,15 @@
 }
 
 @media (max-width: 575px) {
+
+    #retrobg-sunWrap {
+        width: 100%;
+    }
+
+    #rotatingImage {
+        left: 25% !important;
+    }
+
   .u-section-8 .u-sheet-1 {
     min-height: 526px;
   }
@@ -1858,7 +1925,7 @@
 /* ............................................................... */
 #retrobg-sunWrap {
     position: relative;
-    width: 40%;
+    width: 35%;
     margin-bottom: -15%;
 }
 
@@ -2041,4 +2108,16 @@
 .retrobg-vline + .retrobg-vline {
     margin-left: 48px;
 }
- 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#rotatingImage {
+    animation: rotate 2s linear infinite; /* Adjust the duration as needed */
+}
