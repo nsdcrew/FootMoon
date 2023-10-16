@@ -120,11 +120,17 @@
   <data name="acroche" xml:space="preserve">
     <value>L'incroyable histoire d'un jeune garçon qui voulait toucher les étoiles en envoyant son pied...&amp;nbsp;À la lune !!!</value>
   </data>
+  <data name="AdrenalineAlley" xml:space="preserve">
+    <value>Le plus grand centre sportif urbain d'Europe</value>
+  </data>
   <data name="AreUReady" xml:space="preserve">
     <value>Êtes-vous prêt à aller sur la lune avec Julien Cudot ?</value>
   </data>
   <data name="cannes" xml:space="preserve">
     <value>On attend toujours la Palme ...</value>
+  </data>
+  <data name="ChicasRoller" xml:space="preserve">
+    <value>Groupe de patineuses mexicaines. Voyage et roller au Mexique</value>
   </data>
   <data name="ClickOnIt" xml:space="preserve">
     <value>Cliquez dessus pour voir l'image en taille réelle</value>
@@ -145,7 +151,7 @@
     <value>Jours</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot (Champion du monde officiel), Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
+    <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot (Champion du monde), Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>Ne le manquez pas !</value>
@@ -207,8 +213,23 @@
   <data name="thxParteners" xml:space="preserve">
     <value>Nous tenons à remercier tous nos partenaires pour leur aide et leur confiance</value>
   </data>
+  <data name="thxSoloInline" xml:space="preserve">
+    <value>Tout pour le roller ! Solo Inline est la première boutique spécialisée en patins à roues alignés au Québec</value>
+  </data>
   <data name="Trailer" xml:space="preserve">
     <value>Bande annonce</value>
+  </data>
+  <data name="txtClic-n-roll" xml:space="preserve">
+    <value>Clic-n-roll est un magasin français de skate, roller et trottinette créé et géré par des passionnés depuis 2010</value>
+  </data>
+  <data name="txtMGlisse" xml:space="preserve">
+    <value>Votre club de sport spécialisé dans le développement et l'enseignement des sports de glisses urbaines à Toulon</value>
+  </data>
+  <data name="txtProyextoMexcio" xml:space="preserve">
+    <value>Le meilleur du #rollerblading au Mexique. Voyager et filmer les personnes les plus incroyables en roller</value>
+  </data>
+  <data name="txtRollernews" xml:space="preserve">
+    <value>Votre media en ligne pour le roller</value>
   </data>
   <data name="WannaBe" xml:space="preserve">
     <value>Envie d'être partenaire officiel, de diffuser le film, de poser une question ?</value>
@@ -221,5 +242,11 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>VOIR LA BANDE-ANNONCE</value>
+  </data>
+  <data name="yourBrand" xml:space="preserve">
+    <value>Votre marque</value>
+  </data>
+  <data name="yourImage" xml:space="preserve">
+    <value>Votre logo ici et dans le film ? Contactez-nous !</value>
   </data>
 </root>

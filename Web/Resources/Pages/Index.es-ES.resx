@@ -120,11 +120,17 @@
   <data name="acroche" xml:space="preserve">
     <value>La increíble historia de un joven que quiso tocar el cielo, mandando su pie...&amp;nbsp;¡¡¡Asta la luna!!!</value>
   </data>
+  <data name="AdrenalineAlley" xml:space="preserve">
+    <value>El centro deportivo urbano más grande de Europa</value>
+  </data>
   <data name="AreUReady" xml:space="preserve">
     <value>¿Estás list(o)(a) para ir en la luna con Julien Cudot?</value>
   </data>
   <data name="cannes" xml:space="preserve">
     <value>Todavía esperando noticias del `Festivale de Cannes` ...</value>
+  </data>
+  <data name="ChicasRoller" xml:space="preserve">
+    <value>Grupo de patinadoras Mexicanas. Viajando y difundiendo el Rollerblading en México</value>
   </data>
   <data name="ClickOnIt" xml:space="preserve">
     <value>Haga clic en él para ver la imagen en tamaño completo</value>
@@ -145,7 +151,7 @@
     <value>Dias</value>
   </data>
   <data name="details" xml:space="preserve">
-    <value>Una película producida &amp;amp; dirigida por Backa Flipa Producción con Julien Cudot (campeón mundial oficial), la aparición de Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro con la participación de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
+    <value>Una película producida &amp;amp; dirigida por Backa Flipa Producción con Julien Cudot (campeón mundial), la aparición de Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro con la participación de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
   </data>
   <data name="dontMissIt" xml:space="preserve">
     <value>¡No te lo pierdas!</value>
@@ -207,11 +213,26 @@
   <data name="thxParteners" xml:space="preserve">
     <value>Nos gustaría agradecer a todos nuestros socios por su ayuda y confianza.</value>
   </data>
+  <data name="thxSoloInline" xml:space="preserve">
+    <value>¡Todo para el patinaje sobre ruedas! Solo Inline es la primera tienda especializada en patines en línea en Quebec</value>
+  </data>
   <data name="Trailer" xml:space="preserve">
     <value>Trailer</value>
   </data>
+  <data name="txtClic-n-roll" xml:space="preserve">
+    <value>Clic-n-roll es una tienda francesa de skate, roller y patinete creada y gestionada por apasionados desde 2010</value>
+  </data>
+  <data name="txtMGlisse" xml:space="preserve">
+    <value>Tu club deportivo especializado en el desarrollo y la enseñanza de deportes de deslizamiento urbano en Toulon (Francia)</value>
+  </data>
+  <data name="txtProyextoMexcio" xml:space="preserve">
+    <value>Lo mejor sobre el #rollerblading en México. Viajando y filmando a las personas más increíbles sobre ruedas</value>
+  </data>
+  <data name="txtRollernews" xml:space="preserve">
+    <value>Tu medio en línea para el roller</value>
+  </data>
   <data name="WannaBe" xml:space="preserve">
-    <value>¿Quieres ser socio oficial, transmitir la película y hacer una pregunta sencilla?</value>
+    <value>¿Quieres ser socio oficial, transmitir la película o hacer una pregunta ?</value>
   </data>
   <data name="WatchFullMovie" xml:space="preserve">
     <value>Ver la Película completa</value>
@@ -221,5 +242,11 @@
   </data>
   <data name="watch_trailer" xml:space="preserve">
     <value>VER EL TRAILER</value>
+  </data>
+  <data name="yourBrand" xml:space="preserve">
+    <value>Tu marca</value>
+  </data>
+  <data name="yourImage" xml:space="preserve">
+    <value>¿Tu logo aquí y en la película? ¡Contáctanos!</value>
   </data>
 </root>
