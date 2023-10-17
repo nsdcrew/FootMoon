@@ -560,7 +560,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
 
 
-<section class="skrollable u-align-center u-clearfix u-image skrollable-betweenu-custom-color-1  u-section-7 u-parallax" style="height:500px; background-image: url(images/tigre1.webp);" id="comments">
+<section class="skrollable u-align-center u-clearfix u-image skrollable-betweenu-custom-color-1  u-section-7 " style="height:500px;" id="comments">
+    <video autoplay muted loop id="myVideo" poster="images/tigre2.webp" style="position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;    z-index: -10;height: 1050px;">
+  <source src="rain.mp4" type="video/mp4">
+</video>
     <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-body-alt-color u-text-1" style="font-family: agency FB;text-shadow:0px 2px 8px rgba(0,0,0,1)">@SharedLocalizer["MenuSubItemComments"]</h1>
 
@@ -1022,6 +1028,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             document.querySelector( "#retrobg-sun" ).onclick = () => {
   document.querySelector( "#retrobg" ).classList.toggle( "retrobg-shutdown" );
 };
+
+
+
+
+
+ 
+
 
             $(function () {
                 $('#myCarousel').carousel({ interval: 3000 })

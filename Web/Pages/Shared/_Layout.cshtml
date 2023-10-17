@@ -137,7 +137,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color:#121212;font-family: Agency FB;font-size:x-large">
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color:#2C5273;font-family: Agency FB;font-size:x-large">
                         <div class="offcanvas-header" style="font-size:xx-large">
 
                             FootMoon - @SharedLocalizer["TheMovie"]
@@ -149,40 +149,40 @@
                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" >
                                
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active " href="#sec-76a9" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:x-large">
+                                    <a class="nav-link active closeMenuBtn " data-bs-dismiss="offcanvas" href="#sec-76a9" role="button" aria-expanded="false" style="font-size:x-large">
                                         @SharedLocalizer["Home"]
                                     </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark show">
+                                    <ul class="dropdown-menu dropdown-menu-dark show closeMenuBtn" style="background-color:#2C5273;border:0px">
 
                                             
                                         @if (DateTime.Now >= realeaseDatetime || showAllSection)
                                         {
-                                           
 
-                                            <li><a class="dropdown-item" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-e1b0">@SharedLocalizer["MenuSubItemIntroduction"]</a></li>
-                                            <li><a class="dropdown-item" href="#carousel_344b">@SharedLocalizer["MenuSubItemFullMovie"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
-                                            <li><a class="dropdown-item" href="#merchs">@SharedLocalizer["MenuSubItemMerch"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
-                                            <li><a class="dropdown-item" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
+
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-e1b0">@SharedLocalizer["MenuSubItemIntroduction"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#carousel_344b">@SharedLocalizer["MenuSubItemFullMovie"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#merchs">@SharedLocalizer["MenuSubItemMerch"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
                                          
 
                                         }
                                         else
                                         {
-                                            <li><a class="dropdown-item" href="#sec-d0a9">@SharedLocalizer["MenuSubItemReleaseDate"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-d0a9">@SharedLocalizer["MenuSubItemReleaseDate"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-5161">@SharedLocalizer["MenuSubItemTrailer"]</a></li>
                                         
                                     
                                           @*  <li><a class="dropdown-item" href="#merchs">@SharedLocalizer["MenuSubItemMerch"]</a></li>*@
-                                            <li><a class="dropdown-item" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
-                                            <li><a class="dropdown-item" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
-                                            <li><a class="dropdown-item" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-f959">@SharedLocalizer["MenuSubItemPhotos"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#comments">@SharedLocalizer["MenuSubItemComments"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-8a7d">@SharedLocalizer["MenuSubItemContact"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-part">@SharedLocalizer["MenuSubItemPartners"]</a></li>
+                                            <li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="#sec-6cfe">@SharedLocalizer["MenuSubItemAwards"]</a></li>
 
 
                                         }
@@ -212,7 +212,7 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" data-js-preventDefault class="add-button nav-item" style="display:none;color: rgba(255,255,255,.55);font-size: x-large;text-decoration: none;">@SharedLocalizer["InstallApp"]</a>
+                                    <a href="#" data-js-preventDefault class="add-button nav-item" data-bs-dismiss="offcanvas" style="display:none;color: rgba(255,255,255,.55);font-size: x-large;text-decoration: none;">@SharedLocalizer["InstallApp"]</a>
                                 </li>
                    
                                 <li class="nav-item">
