@@ -150,6 +150,9 @@
   <data name="days" xml:space="preserve">
     <value>Dias</value>
   </data>
+  <data name="descriptionTextFede" xml:space="preserve">
+    <value>Encuentra todas las prácticas de patinaje y skate en los 900 clubes de la FFRS.</value>
+  </data>
   <data name="details" xml:space="preserve">
     <value>Una película producida &amp;amp; dirigida por Backa Flipa Producción con Julien Cudot (campeón mundial), la aparición de Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro con la participación de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
   </data>
@@ -182,6 +185,9 @@
   </data>
   <data name="MovieOnlineIn" xml:space="preserve">
     <value>Película disponible en línea aca en</value>
+  </data>
+  <data name="nameFede" xml:space="preserve">
+    <value>Federación Francesa de skates y rollers</value>
   </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok recuérdamelo!</value>
