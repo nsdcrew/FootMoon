@@ -150,6 +150,9 @@
   <data name="days" xml:space="preserve">
     <value>Jours</value>
   </data>
+  <data name="descriptionTextFede" xml:space="preserve">
+    <value>Retrouvez l'ensemble des pratiques du roller et du skateboard dans les 900 clubs de la FFRS.</value>
+  </data>
   <data name="details" xml:space="preserve">
     <value>Un film produit &amp;amp; réalisé par Backa Flipa Production avec Julien Cudot (Champion du monde), Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy Dubost, Rocio Genaro avec la participation de Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clément Millot, Maciej Tomkow</value>
   </data>
@@ -183,6 +186,9 @@
   <data name="MovieOnlineIn" xml:space="preserve">
     <value>Film disponible en ligne ici dans</value>
   </data>
+  <data name="nameFede" xml:space="preserve">
+    <value>Fédération Française de Roller &amp; Skateboard</value>
+  </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok, rappelle-moi !</value>
   </data>
@@ -191,6 +197,9 @@
   </data>
   <data name="PhotoByThoma" xml:space="preserve">
     <value>Photos par</value>
+  </data>
+  <data name="planetpark" xml:space="preserve">
+    <value />
   </data>
   <data name="pre_order" xml:space="preserve">
     <value>Pré-commander</value>

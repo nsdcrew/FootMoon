@@ -150,6 +150,9 @@
   <data name="days" xml:space="preserve">
     <value>Days</value>
   </data>
+  <data name="descriptionTextFede" xml:space="preserve">
+    <value>Find all the practices of rollerblading and skateboarding in the 900 clubs of the FFRS.</value>
+  </data>
   <data name="details" xml:space="preserve">
     <value>A film produced &amp;amp; directed by Backa Flipa Production with Julien Cudot (World Champion), the appearance of Brian Aragon, Alex Browskow, John Bolino, Stéphane Alfano, Roman Abrate, Frai Gomez, Hadrien Bastouil, Florian Petitcollin, Sofia Bogdanova, Daniel Mihalcea, Viktor Thorup, Alejandro Gonzalez, Angel Valdez, Vincent Romain, Alejandra Jimenez, Katherine Gomez, Michel Guevara, Jeremi Rodriguez, Thomas Camus, Jimmy dubost, Rocio Genaro with the participation of Guillaume Chaboud, Ricky Brown, Mariana Eites, Walter Sanchez, Clement Millot, Maciej Tomkow</value>
   </data>
@@ -182,6 +185,9 @@
   </data>
   <data name="MovieOnlineIn" xml:space="preserve">
     <value>Movie available online here in</value>
+  </data>
+  <data name="nameFede" xml:space="preserve">
+    <value>French Roller &amp; Skateboard Federation</value>
   </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok remind me !</value>
