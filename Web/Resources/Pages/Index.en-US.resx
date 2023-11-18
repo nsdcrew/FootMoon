@@ -150,6 +150,12 @@
   <data name="days" xml:space="preserve">
     <value>Days</value>
   </data>
+  <data name="descriptionCarriere" xml:space="preserve">
+    <value>Carriers Skate Shop Offers Aggressive/Fitness/Urban Inline Skates, Roller Skates/Quad Skates, Protective Gear, Skating Accessories and Parts. Skate Lessons In Texas</value>
+  </data>
+  <data name="descriptionLaRueda" xml:space="preserve">
+    <value>Skate and protective equipment store, for the little ones in the house and for the whole family in Puebla and throughout Mexico</value>
+  </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Find all the practices of rollerblading and skateboarding in the 900 clubs of the FFRS.</value>
   </data>

@@ -150,6 +150,12 @@
   <data name="days" xml:space="preserve">
     <value>Jours</value>
   </data>
+  <data name="descriptionCarriere" xml:space="preserve">
+    <value>Carriers Skate Shop propose des patins à roues alignées agressifs/fitness/urbains, des patins à roulettes/patins quad, des équipements de protection, des accessoires et des pièces de patinage. Cours de skate au Texas</value>
+  </data>
+  <data name="descriptionLaRueda" xml:space="preserve">
+    <value>Magasin de Patinaje et d'équipement de protection, pour les plus petits de la maison et pour toute la famille à Puebla et dans tout le Mexique</value>
+  </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Retrouvez l'ensemble des pratiques du roller et du skateboard dans les 900 clubs de la FFRS.</value>
   </data>

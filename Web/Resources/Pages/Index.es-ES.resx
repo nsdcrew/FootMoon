@@ -150,6 +150,12 @@
   <data name="days" xml:space="preserve">
     <value>Dias</value>
   </data>
+  <data name="descriptionCarriere" xml:space="preserve">
+    <value>Carriers Skate Shop ofrece patines en línea agresivos/fitness/urbanos, patines de ruedas/patines cuádruples, equipo de protección, accesorios y repuestos para patinaje. Lecciones de skate en Texas</value>
+  </data>
+  <data name="descriptionLaRueda" xml:space="preserve">
+    <value>Tienda de patines y equipo de protección, para los peques de la casa y para toda la familia en puebla y por todo Mexico</value>
+  </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Encuentra todas las prácticas de patinaje y skate en los 900 clubes de la FFRS.</value>
   </data>
