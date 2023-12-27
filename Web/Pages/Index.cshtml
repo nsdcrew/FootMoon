@@ -19,7 +19,7 @@
     var year = 2023;
     var month = 12;
     var day = 15;
-    var hours = 12;
+    var hours = 22;
     var minutes = 0;
 
     long ticks = new DateTime(year, month, day, hours, minutes, 0,
@@ -27,7 +27,7 @@
 
     var realeaseDatetime = new DateTime(ticks);
 
-    bool showAllSection = false;
+    bool showAllSection = true;
     bool showFotoSection = true;
     string bgColortoAdd = ""; 
     string txtColortoAdd = "";
@@ -126,12 +126,12 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
 
         <div class="u-clearfix u-sheet u-sheet-1">
             <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1"  style="font-family: agency FB;" data-lang-fr=" Something wow is Coming...&amp;nbsp;<br>" data-lang-ena=" Something wow is Coming in...&amp;nbsp;<br>">
-                @Localizer["MovieOnlineIn"]<br>
+               
             </h2>
           
             <div class="u-align-center-xs u-countdown u-countdown-1">
 
-                <div class="u-countdown-wrapper u-spacing-30">
+          @*      <div class="u-countdown-wrapper u-spacing-30">
                     <div class="u-countdown-separator u-hidden u-text-grey-90 u-countdown-separator-1"></div>
                     <div class=" u-countdown-item u-radius-22 u-spacing-15 u-white u-countdown-item-2">
                         <div class=" u-countdown-counter-2"><div class="u-text-grey-90" id="DaysNum" style="font-family: agency FB;"></div></div>
@@ -147,13 +147,13 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                         <div class=" u-countdown-counter-4"><div class="u-text-grey-90" id="MinutesNum" style="font-family: agency FB;"></div></div>
                         <div class="u-countdown-label u-countdown-label-4" style="font-family: agency FB;">@Localizer["minutes"]</div>
                     </div>
-                </div>
+                </div>*@
                 
                 <h2 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-2" style="font-family: agency FB;    margin-top: 50px;" style="text-transform:lowercase" >
                     @*<span style="font-size:2.25rem;">Online release</span> <br>*@
                    
-                    @Localizer["ReleaseDate"]
-                    
+                    @Localizer["ReleaseDate"]<br/>
+                     @Localizer["Soon"]
                 </h2>
                 <div class="u-countdown-message u-hidden">
                     <p></p>
@@ -235,7 +235,7 @@ else
             <p class="u-align-center u-custom-font u-text u-text-2" style="font-family: agency FB;" > @Localizer["sinceofficial"] </p>
             <div class="u-video u-video-1">
                 <div class="embed-responsive embed-responsive-1">
-                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/6JVTcjgRebc" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/CZW9v_Hjn1w" frameborder="0" allowfullscreen=""></iframe>
                 </div>
             </div>
             <p class="u-align-center u-custom-font u-text u-text-3" style="font-family: agency FB;" data-lang-ena="​* Select the language of you choice using the subtitles available in the youtube player" data-lang-fr="​* Select the language of you choice using the subtitles available in the youtube player"> * @Localizer["langSubMess"]</p>
@@ -261,6 +261,9 @@ else
             <a href="/images/watchOnTv.PNG"  target="_blank" class="u-align-center u-border-none" style="color:white; margin-bottom:80px;">
               @Localizer["HowWatchIt"]  
             </a>
+            <p class="u-align-center u-custom-font u-text u-text-3" style="font-family: agency FB;color:white;">* @Localizer["notOnYourtube"]</p>
+
+
         </div>
     </section>
 
@@ -637,17 +640,6 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
         <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-2" style="font-family: agency FB;text-shadow:0px 2px 8px rgba(0,0,0,1)" >@Localizer["thxParteners"]</p>
         <div class="u-expanded-width u-list u-list-1">
             <div class="u-repeater u-repeater-1">
-
-                <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1 whiteback" style="font-family: agency FB;">
-                        <div alt="" class="u-image u-image-circle u-image-10" data-image-width="500" data-image-height="500"></div>
-                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3" style="font-family: agency FB;">
-                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://www.carriersskateshop.com/" style="text-decoration:underline;color:black !important" target="_blank">Carriers Skate Shop</a>
-                        </h4>
-                        <p class="u-custom-font u-text  u-text-4" style="font-family: agency FB;">@Localizer["descriptionCarriere"]</p>
-
-                    </div>
-                </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3 whiteback" style="font-family: agency FB;">
                         <div alt="" class="u-image u-image-circle u-image-11" data-image-width="548" data-image-height="549"></div>
@@ -655,7 +647,33 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://www.facebook.com/TiendadepatinesenPuebla?mibextid=ZbWKwL" style="text-decoration:underline;color:black !important" target="_blank">La Rueda Skateshop</a>
                         </h4>
                         <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["descriptionLaRueda"]</p>
-
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3 whiteback" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-14" data-image-width="548" data-image-height="549"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://moovride.com" style="text-decoration:underline;color:black !important" target="_blank">Moovride</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["descriptionMoovride"]</p>
+                    </div>
+                </div>
+               <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3 whiteback" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-13" data-image-width="548" data-image-height="549"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://www.instagram.com/rollinginline_worldwide" style="text-decoration:underline;color:black !important" target="_blank">Rolling World</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["descriptionRollingWorld"]</p>
+                    </div>
+                </div>
+                               <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3 whiteback" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-15" data-image-width="548" data-image-height="549"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://www.instagram.com/bladelife.tv/" style="text-decoration:underline;color:black !important" target="_blank">Bladelife.tv</a>
+                        </h4>
+                        <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["descriptionBladeLife"]</p>
                     </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
@@ -665,16 +683,25 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://ffroller-skateboard.fr/" style="text-decoration:underline;color:black !important" target="_blank">@Localizer["nameFede"]</a>
                         </h4>
                         <p class="u-custom-font u-text  u-text-4" style="font-family: agency FB;">@Localizer["descriptionTextFede"]</p>
-
                     </div>
                 </div>
-                               <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3 whiteback" style="font-family: agency FB;">
                         <div alt="" class="u-image u-image-circle u-image-3" data-image-width="548" data-image-height="549"></div>
                         <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
                             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" href="https://www.rollernews.com" style="text-decoration:underline;color:black !important" target="_blank">Rollernews</a>
                         </h4>
                         <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["txtRollernews"]</p>
+
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1 whiteback" style="font-family: agency FB;">
+                        <div alt="" class="u-image u-image-circle u-image-10" data-image-width="500" data-image-height="500"></div>
+                        <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-3" style="font-family: agency FB;">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://www.carriersskateshop.com/" style="text-decoration:underline;color:black !important" target="_blank">Carriers Skate Shop</a>
+                        </h4>
+                        <p class="u-custom-font u-text  u-text-4" style="font-family: agency FB;">@Localizer["descriptionCarriere"]</p>
 
                     </div>
                 </div>
@@ -694,8 +721,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                         <h4 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-default u-text-7" style="font-family: agency FB;">
                             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" style="text-decoration:underline;color:black !important" href="https://www.rollernco.com/" target="_blank">Roller n'co</a>
                         </h4>
-                        <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["txtRollerNco"]</p>
-
+                        <p class="u-custom-font u-text u-text-8" style="font-family: agency FB;">@Localizer["txtRollerNco"] </p>          
                     </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
@@ -864,8 +890,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
 
 
-@if (DateTime.Now >= realeaseDatetime || showAllSection)
-{
+
 
     <section class="skrollable u-align-center u-clearfix u-parallax u-white u-section-8" src="" id="merchs" style="">
         <div class="u-clearfix u-sheet u-sheet-1" style="margin-bottom:70px;">
@@ -917,7 +942,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
         </div>
     </section>
-}
+
 
 
 

@@ -157,12 +157,12 @@
     <value>Bande annonce</value>
   </data>
   <data name="Shop" xml:space="preserve">
-    <value>Boutique</value>
+    <value>Boutique Footmoon</value>
   </data>
   <data name="TheMovie" xml:space="preserve">
     <value>Le film</value>
   </data>
   <data name="Watch" xml:space="preserve">
-    <value>Voir le film</value>
+    <value>Voir le film complet</value>
   </data>
 </root>

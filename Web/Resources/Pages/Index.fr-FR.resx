@@ -150,11 +150,22 @@
   <data name="days" xml:space="preserve">
     <value>Jours</value>
   </data>
+  <data name="descriptionBladeLife" xml:space="preserve">
+    <value>Diffuser des idées en roller</value>
+  </data>
   <data name="descriptionCarriere" xml:space="preserve">
     <value>Carriers Skate Shop propose des patins à roues alignées agressifs/fitness/urbains, des patins à roulettes/patins quad, des équipements de protection, des accessoires et des pièces de patinage. Cours de skate au Texas</value>
   </data>
   <data name="descriptionLaRueda" xml:space="preserve">
     <value>Magasin de Patinaje et d'équipement de protection, pour les plus petits de la maison et pour toute la famille à Puebla et dans tout le Mexique</value>
+  </data>
+  <data name="descriptionMoovride" xml:space="preserve">
+    <value>Émotions en mouvement. Le cœur de notre préoccupation c'est vous! Le mouvement notre passion! Bienvenue dans la famille Moovride!</value>
+  </data>
+  <data name="descriptionRollingWorld" xml:space="preserve">
+    <value>Inline Skating 
+Global Media/News Source
+@rollingworldmedia</value>
   </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Retrouvez l'ensemble des pratiques du roller et du skateboard dans les 900 clubs de la FFRS.</value>
@@ -175,7 +186,7 @@
     <value>Comment le regarder sur une SMART TV</value>
   </data>
   <data name="InMexico" xml:space="preserve">
-    <value>Au Mexique</value>
+    <value>Un champion du monde au Mexique</value>
   </data>
   <data name="langSubMess" xml:space="preserve">
     <value>Sélectionnez la langue de votre choix grâce aux sous-titres disponibles dans le lecteur YouTube</value>
@@ -195,6 +206,9 @@
   <data name="nameFede" xml:space="preserve">
     <value>Fédération Française de Roller &amp; Skateboard</value>
   </data>
+  <data name="notOnYourtube" xml:space="preserve">
+    <value>Nous sommes présentement en recherche d'un ou plusieurs diffuseurs interessé par le film, pour cette raison footmoon il n'est pas prévu que footmoon soit diffuser sur youtube dans le futur</value>
+  </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok, rappelle-moi !</value>
   </data>
@@ -211,7 +225,7 @@
     <value>Pré-commander</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
-    <value>15 décembre 2023 à 12h</value>
+    <value>15 décembre 2023 à 17h00 UTC</value>
   </data>
   <data name="SelectLang" xml:space="preserve">
     <value>Selectionnez votre langue</value>
@@ -221,6 +235,9 @@
   </data>
   <data name="sinceofficial" xml:space="preserve">
     <value>Depuis la sortie officielle du film (15/12/23), nous vous proposons de visionner gratuitement la partie introduction</value>
+  </data>
+  <data name="Soon" xml:space="preserve">
+    <value>Très prochainement ... êtes vous excité ?</value>
   </data>
   <data name="thxEmaill" xml:space="preserve">
     <value>Merci! Un email vous sera envoyé le jour où il sera disponible.</value>

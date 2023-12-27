@@ -157,12 +157,12 @@
     <value>Trailer</value>
   </data>
   <data name="Shop" xml:space="preserve">
-    <value>Shop</value>
+    <value>Footmoon Shop</value>
   </data>
   <data name="TheMovie" xml:space="preserve">
     <value>The Movie</value>
   </data>
   <data name="Watch" xml:space="preserve">
-    <value>Watch</value>
+    <value>Watch the full movie</value>
   </data>
 </root>

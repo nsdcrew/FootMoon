@@ -150,11 +150,22 @@
   <data name="days" xml:space="preserve">
     <value>Dias</value>
   </data>
+  <data name="descriptionBladeLife" xml:space="preserve">
+    <value>Difundir ideas a través del patinaje</value>
+  </data>
   <data name="descriptionCarriere" xml:space="preserve">
     <value>Carriers Skate Shop ofrece patines en línea agresivos/fitness/urbanos, patines de ruedas/patines cuádruples, equipo de protección, accesorios y repuestos para patinaje. Lecciones de skate en Texas</value>
   </data>
   <data name="descriptionLaRueda" xml:space="preserve">
     <value>Tienda de patines y equipo de protección, para los peques de la casa y para toda la familia en puebla y por todo Mexico</value>
+  </data>
+  <data name="descriptionMoovride" xml:space="preserve">
+    <value>Emocións en movimiento. ¡El corazón de nuestra preocupación eres tú! ¡Movimiento nuestra pasión! ¡Bienvenido a la familia Moovride!</value>
+  </data>
+  <data name="descriptionRollingWorld" xml:space="preserve">
+    <value>Inline Skating 
+Global Media/News Source
+@rollingworldmedia</value>
   </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Encuentra todas las prácticas de patinaje y skate en los 900 clubes de la FFRS.</value>
@@ -175,7 +186,7 @@
     <value>Cómo verlo en un SMART TV</value>
   </data>
   <data name="InMexico" xml:space="preserve">
-    <value>En Mexico</value>
+    <value>Un campeon mundial en mexico</value>
   </data>
   <data name="langSubMess" xml:space="preserve">
     <value>Seleccione el idioma de su elección utilizando los subtítulos disponibles en YouTube.</value>
@@ -195,6 +206,9 @@
   <data name="nameFede" xml:space="preserve">
     <value>Federación Francesa de skates y rollers</value>
   </data>
+  <data name="notOnYourtube" xml:space="preserve">
+    <value>Actualmente estamos buscando una o más emisoras interesadas en la película, por esta razón no está previsto que footmoon se transmita en YouTube en el futuro</value>
+  </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok recuérdamelo!</value>
   </data>
@@ -208,7 +222,7 @@
     <value>Preordenar</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
-    <value>15 de diciembre de 2023 a las 12:00 </value>
+    <value>15 de diciembre de 2023 a las 17:00 UTC </value>
   </data>
   <data name="SelectLang" xml:space="preserve">
     <value>Selecciona tu idioma</value>
@@ -218,6 +232,9 @@
   </data>
   <data name="sinceofficial" xml:space="preserve">
     <value>Desde el lanzamiento oficial de la película (15/12/23), te ofrecemos ver la sección de introducción gratis.</value>
+  </data>
+  <data name="Soon" xml:space="preserve">
+    <value>próximamente... ¿estás emocionado?</value>
   </data>
   <data name="thxEmaill" xml:space="preserve">
     <value>¡Gracias! Se le enviará un correo electrónico el día que esté disponible.</value>

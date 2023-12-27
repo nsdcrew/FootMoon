@@ -150,11 +150,22 @@
   <data name="days" xml:space="preserve">
     <value>Days</value>
   </data>
+  <data name="descriptionBladeLife" xml:space="preserve">
+    <value>Spreading ideas through rollerblading</value>
+  </data>
   <data name="descriptionCarriere" xml:space="preserve">
     <value>Carriers Skate Shop Offers Aggressive/Fitness/Urban Inline Skates, Roller Skates/Quad Skates, Protective Gear, Skating Accessories and Parts. Skate Lessons In Texas</value>
   </data>
   <data name="descriptionLaRueda" xml:space="preserve">
     <value>Skate and protective equipment store, for the little ones in the house and for the whole family in Puebla and throughout Mexico</value>
+  </data>
+  <data name="descriptionMoovride" xml:space="preserve">
+    <value>Emotions in motion. The heart of our concern is you! Movement our passion! Welcome to the Moovride family!</value>
+  </data>
+  <data name="descriptionRollingWorld" xml:space="preserve">
+    <value>Inline Skating 
+Global Media/News Source
+@rollingworldmedia</value>
   </data>
   <data name="descriptionTextFede" xml:space="preserve">
     <value>Find all the practices of rollerblading and skateboarding in the 900 clubs of the FFRS.</value>
@@ -175,7 +186,7 @@
     <value>How to watch it on a SMART TV</value>
   </data>
   <data name="InMexico" xml:space="preserve">
-    <value>In Mexico</value>
+    <value>A world champion in Mexico</value>
   </data>
   <data name="langSubMess" xml:space="preserve">
     <value>Select the language of you choice using the subtitles available in the youtube player</value>
@@ -195,6 +206,9 @@
   <data name="nameFede" xml:space="preserve">
     <value>French Roller &amp; Skateboard Federation</value>
   </data>
+  <data name="notOnYourtube" xml:space="preserve">
+    <value>we are currently looking for one or more broadcasters interested by the film, for this reason it's not planned that footmoon will be on youtube in the future</value>
+  </data>
   <data name="OkRemindMe" xml:space="preserve">
     <value>Ok remind me !</value>
   </data>
@@ -208,7 +222,7 @@
     <value>Pre order</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
-    <value>December 15st, 2023 at 12pm</value>
+    <value>December 15st, 2023 at 5pm UTC</value>
   </data>
   <data name="SelectLang" xml:space="preserve">
     <value>Select your language</value>
@@ -218,6 +232,9 @@
   </data>
   <data name="sinceofficial" xml:space="preserve">
     <value>Since the official release of the movie (15/12/23), we offer you to watch the introduction section for free</value>
+  </data>
+  <data name="Soon" xml:space="preserve">
+    <value>Really soon ... are you excited?</value>
   </data>
   <data name="thxEmaill" xml:space="preserve">
     <value>Thank you! An email will be send to you the day it become available.</value>
